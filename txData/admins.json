@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Tristen_Rodriguez",
+    "master": true,
+    "password_hash": "$2a$11$LPKHTON2/Uetak3iUtuqwOA5b4h0uFg25v/h42z5pMJ7QUlz1uWIe",
+    "providers": {
+      "citizenfx": {
+        "id": "Tristen_Rodriguez",
+        "identifier": "fivem:1734549",
+        "data": {
+          "sub": "1ccaf25fe3b865f3cc7357fc6e3200ec",
+          "nameid": "https://forum.cfx.re/internal/user/1734549",
+          "name": "Tristen_Rodriguez",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/tristen_rodriguez/256/698990_2.png",
+          "profile": "https://forum.cfx.re/u/Tristen_Rodriguez"
+        }
+      }
+    },
+    "permissions": []
+  }
+]

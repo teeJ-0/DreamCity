@@ -1,0 +1,33 @@
+
+================================================================
+======== txAdmin Starting - 7/17/2022, 1:00:19 PM               
+================================================================
+[13:07:28] [Tristen_Rodriguez] created admins file
+[13:12:22] [Tristen_Rodriguez] Changing global settings via setup stepper and started Deployer.
+[13:12:38] [Tristen_Rodriguez] Setting recipe.
+[13:12:50] [Tristen_Rodriguez] Running recipe.
+[13:16:49] [Tristen_Rodriguez] Configured server.cfg from deployer.
+[13:16:49] [Tristen_Rodriguez] Completed and committed server deploy.
+[13:17:12] [Tristen_Rodriguez] RESTART SERVER
+[13:42:04] [Tristen_Rodriguez] RESTART SERVER
+[13:55:09] [Tristen_Rodriguez] RESTART SERVER
+[13:55:42] [Tristen_Rodriguez] logged in via in-game ui
+
+================================================================
+======== txAdmin Starting - 7/17/2022, 2:16:48 PM               
+================================================================
+[14:17:12] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
+[15:12:44] [Tristen_Rodriguez] RESTART SERVER
+[15:29:10] [Tristen_Rodriguez] RESTART SERVER
+[15:40:13] [Tristen_Rodriguez] RESTART SERVER
+[15:49:00] [Tristen_Rodriguez] RESTART SERVER
+[16:06:04] [Tristen_Rodriguez] RESTART SERVER
+[16:30:59] [Tristen_Rodriguez] RESTART SERVER
+[16:31:43] [Tristen_Rodriguez] logged in via in-game ui
+
+================================================================
+======== txAdmin Starting - 7/17/2022, 5:54:27 PM               
+================================================================
+[17:55:28] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
+[19:07:02] [MONITOR] Restarting server (server partial hang detected).
+[19:08:04] [MONITOR] Restarting server (server close detected).
