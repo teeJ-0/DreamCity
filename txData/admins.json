@@ -17,5 +17,20 @@
       }
     },
     "permissions": []
+  },
+  {
+    "name": "eddy_galapagos",
+    "master": false,
+    "password_hash": "$2a$11$LXVBBMOqT1dQV677fPKOZulMIKWAAR68tfeTNZ98PKK3JllvvA31G",
+    "providers": {
+      "discord": {
+        "id": "533928210962972673",
+        "identifier": "discord:533928210962972673",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
   }
 ]

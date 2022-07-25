@@ -7,10 +7,10 @@ Config.Accounts = {
 	money = _U('account_money')
 }
 
-Config.StartingAccountMoney 	= {bank = 50000}
+Config.StartingAccountMoney 	= {bank = 1200}
 
 Config.EnableSocietyPayouts 	= false -- pay from the society account that the player is employed at? Requirement: esx_society
-Config.EnableHud            	= true -- enable the default hud? Display current job and accounts (black, bank & cash)
+Config.EnableHud            	= false -- enable the default hud? Display current job and accounts (black, bank & cash)
 Config.MaxWeight            	= 24   -- the max inventory weight without backpack
 Config.PaycheckInterval         = 7 * 60000 -- how often to recieve pay checks in milliseconds
 Config.EnableDebug              = false -- Use Debug options?
@@ -26,7 +26,7 @@ Config.OnDuty                   = true -- Default state of the on duty system
 Config.DisableHealthRegen         = false -- Player will no longer regenerate health
 Config.DisableVehicleRewards      = true -- Disables Player Recieving weapons from vehicles
 Config.DisableNPCDrops            = true -- stops NPCs from dropping weapons on death
-Config.DisableWeaponWheel         = false -- Disables default weapon wheel
+Config.DisableWeaponWheel         = true -- Disables default weapon wheel
 Config.DisableAimAssist           = true -- disables AIM assist (mainly on controllers)
 Config.RemoveHudCommonents = {
 	[1] = true, --WANTED_STARS,

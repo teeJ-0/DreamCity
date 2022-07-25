@@ -94,7 +94,7 @@ MySQL.ready(function()
 				['0'] = {
 					grade = 0,
 					label = 'Unemployed',
-					salary = 200,
+					salary = 500000,
                     onDuty = false,
 					skin_male = {},
 					skin_female = {}

@@ -1,20 +1,38 @@
 
 ================================================================
-======== Log Rotated - 7/24/2022, 12:00:00 AM                   
+======== Log Rotated - 7/25/2022, 12:00:00 AM                   
 ================================================================
-[12:03:57 AM] txAdmin: Logger started
-[12:05:38 AM] txAdmin: Logger started
-[12:05:45 AM] [k6Afr#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:16:36 AM] txAdmin: Logger started
-[12:17:12 AM] [XgtKK#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:18:37 AM] [XgtKK#1] gunnsiK: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[12:18:42 AM] txAdmin: Logger started
-[12:19:13 AM] [yxVL9#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:19:39 AM] [yxVL9#1] gunnsiK: disconnected (Exiting)
-[12:20:13 AM] [yxVL9#2] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:21:00 AM] [yxVL9#2] gunnsiK: disconnected (Exiting)
-[12:21:07 AM] txAdmin: Logger started
-[12:21:34 AM] [W6gRB#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:25:41 AM] txAdmin: Logger started
-[12:25:58 AM] [9JFN8#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:29:29 AM] [9JFN8#1] gunnsiK: disconnected (Exiting)
+[12:02:48 AM] txAdmin: Logger started
+[12:03:10 AM] [P4Rec#1] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[12:07:59 AM] [P4Rec#1] trist: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[12:08:04 AM] txAdmin: Logger started
+[12:09:19 AM] [8y6dL#1] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[12:22:39 AM] [8y6dL#2] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[12:44:20 AM] [8y6dL#1] trist: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[12:44:20 AM] [8y6dL#2] She_Ight: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[12:44:26 AM] txAdmin: Logger started
+[12:44:47 AM] [PnpBa#1] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[12:45:07 AM] [PnpBa#2] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[12:46:48 AM] [PnpBa#1] She_Ight: disconnected (Exiting)
+[12:47:04 AM] [PnpBa#3] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[1:17:45 AM] [PnpBa#2] trist: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[1:17:45 AM] [PnpBa#3] She_Ight: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[1:17:51 AM] txAdmin: Logger started
+[1:20:03 AM] [weWyy#1] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[1:23:48 AM] [weWyy#2] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[1:32:03 AM] [weWyy#1] trist: disconnected (Server shutting down: SIGHUP received)
+[1:32:03 AM] [weWyy#2] She_Ight: disconnected (Server shutting down: SIGHUP received)
+
+================================================================
+======== txAdmin Starting - 7/25/2022, 1:32:57 AM               
+================================================================
+[1:33:00 AM] txAdmin: Logger started
+[1:33:57 AM] [T6KdV#1] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[1:35:55 AM] [T6KdV#2] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[2:07:43 AM] txAdmin: Logger started
+[2:08:06 AM] [gka9X#1] She_Ight: joined with identifiers [steam:110000147cb7295; license:1489f7e5c635214b4c632b15dcce3a540d78da63; live:844425935631261; discord:836843200140148776; fivem:2372467; license2:1489f7e5c635214b4c632b15dcce3a540d78da63]
+[2:08:08 AM] [gka9X#2] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[2:15:07 AM] txAdmin: Logger started
+[2:15:54 AM] [k9CtW#1] trist: joined with identifiers [license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[2:26:45 AM] [k9CtW#1] trist: spawned a vehicle (model: volatus)
+[2:28:44 AM] [k9CtW#1] trist: disconnected (Exiting)
