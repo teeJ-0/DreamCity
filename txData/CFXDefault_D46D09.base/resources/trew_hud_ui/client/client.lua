@@ -531,7 +531,7 @@ Citizen.CreateThread(function()
 
 		-- Vehicle Seatbelt
 		if IsPedInAnyVehicle(player, false) and GetIsVehicleEngineRunning(vehicle) then
-			if IsControlJustReleased(0, Keys[Config.vehicle.keys.seatbelt]) and (has_value(vehiclesCars, vehicleClass) == true and vehicleClass ~= 8) then
+			if IsControlJustReleased(0, 47) then
 				seatbeltIsOn = not seatbeltIsOn
 			end
 		end

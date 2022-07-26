@@ -4,31 +4,30 @@ function OpenVehicleSpawnerMenu(type, hospital, part, partNum)
 	local playerCoords = GetEntityCoords(PlayerPedId())
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'vehicle', {
-		title = _U('garage_title'),
-		align = 'right',
+		title    = _U('garage_title'),
+		align    = 'top-left',
 		elements = {
 			{label = _U('garage_storeditem'), action = 'garage'},
 			{label = _U('garage_storeitem'), action = 'store_garage'},
 			{label = _U('garage_buyitem'), action = 'buy_vehicle'}
-		}
-	}, function(data, menu)
+	}}, function(data, menu)
 		if data.current.action == 'buy_vehicle' then
 			local shopElements = {}
-			local authorizedVehicles = Config.AuthorizedVehicles[type][ESX.PlayerData.job.grade_name]
+			local authorizedVehicles = Config.AuthorizedVehicles[type][ESX.PlayerData.job.grade_name] 	
 			local shopCoords = Config.Hospitals[hospital][part][partNum].InsideShop
 
 			if #authorizedVehicles > 0 then
-				for k, vehicle in ipairs(authorizedVehicles) do
+				for k,vehicle in ipairs(authorizedVehicles) do
 					if IsModelInCdimage(vehicle.model) then
 						local vehicleLabel = GetLabelText(GetDisplayNameFromVehicleModel(vehicle.model))
 
 						table.insert(shopElements, {
 							label = ('%s - <span style="color:green;">%s</span>'):format(vehicleLabel, _U('shop_item', ESX.Math.GroupDigits(vehicle.price))),
-							name = vehicleLabel,
+							name  = vehicleLabel,
 							model = vehicle.model,
 							price = vehicle.price,
 							props = vehicle.props,
-							type = type
+							type  = type
 						})
 					end
 				end
@@ -44,7 +43,7 @@ function OpenVehicleSpawnerMenu(type, hospital, part, partNum)
 				if #jobVehicles > 0 then
 					local allVehicleProps = {}
 
-					for k, v in ipairs(jobVehicles) do
+					for k,v in ipairs(jobVehicles) do
 						local props = json.decode(v.vehicle)
 
 						if IsModelInCdimage(props.model) then
@@ -70,8 +69,8 @@ function OpenVehicleSpawnerMenu(type, hospital, part, partNum)
 
 					if #garage > 0 then
 						ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'vehicle_garage', {
-							title = _U('garage_title'),
-							align = 'right',
+							title    = _U('garage_title'),
+							align    = 'top-left',
 							elements = garage
 						}, function(data2, menu2)
 							if data2.current.stored then
@@ -82,11 +81,9 @@ function OpenVehicleSpawnerMenu(type, hospital, part, partNum)
 
 									ESX.Game.SpawnVehicle(data2.current.model, spawnPoint.coords, spawnPoint.heading, function(vehicle)
 										local vehicleProps = allVehicleProps[data2.current.plate]
-
 										ESX.Game.SetVehicleProperties(vehicle, vehicleProps)
 
 										TriggerServerEvent('esx_vehicleshop:setJobVehicleState', data2.current.plate, false)
-
 										ESX.ShowNotification(_U('garage_released'))
 									end)
 								end
@@ -112,16 +109,17 @@ function OpenVehicleSpawnerMenu(type, hospital, part, partNum)
 end
 
 function StoreNearbyVehicle(playerCoords)
-	local vehicles, vehiclePlates = ESX.Game.GetVehiclesInArea(playerCoords, 30.0), {}
+	local vehicles, plates, index = ESX.Game.GetVehiclesInArea(playerCoords, 30.0), {}, {}
 
-	if #vehicles > 0 then
-		for k, v in ipairs(vehicles) do
+	if next(vehicles) then
+		for i = 1, #vehicles do
+			local vehicle = vehicles[i]
+			
 			-- Make sure the vehicle we're saving is empty, or else it wont be deleted
-			if GetVehicleNumberOfPassengers(v) == 0 and IsVehicleSeatFree(v, -1) then
-				table.insert(vehiclePlates, {
-					vehicle = v,
-					plate = ESX.Math.Trim(GetVehicleNumberPlateText(v))
-				})
+			if GetVehicleNumberOfPassengers(vehicle) == 0 and IsVehicleSeatFree(vehicle, -1) then
+				local plate = ESX.Math.Trim(GetVehicleNumberPlateText(vehicle))
+				plates[#plates + 1] = plate
+				index[plate] = vehicle
 			end
 		end
 	else
@@ -129,27 +127,28 @@ function StoreNearbyVehicle(playerCoords)
 		return
 	end
 
-	ESX.TriggerServerCallback('esx_ambulancejob:storeNearbyVehicle', function(storeSuccess, foundNum)
-		if storeSuccess then
-			local vehicleId = vehiclePlates[foundNum]
+	ESX.TriggerServerCallback('esx_ambulancejob:storeNearbyVehicle', function(plate)
+		if plate then
+			local vehicleId = index[plate]
 			local attempts = 0
-
-			ESX.Game.DeleteVehicle(vehicleId.vehicle)
-
+			ESX.Game.DeleteVehicle(vehicleId)
 			isBusy = true
 
-			Citizen.CreateThread(function()
-				while isBusy do
-					Citizen.Wait(0)
+			CreateThread(function()
+				BeginTextCommandBusyspinnerOn('STRING')
+				AddTextComponentSubstringPlayerName(_U('garage_storing'))
+				EndTextCommandBusyspinnerOn(4)
 
-					drawLoadingText(_U('garage_storing'), 255, 255, 255, 255)
+				while isBusy do
+					Wait(100)
 				end
+
+				BusyspinnerOff()
 			end)
 
 			-- Workaround for vehicle not deleting when other players are near it.
-			while DoesEntityExist(vehicleId.vehicle) do
-				Citizen.Wait(500)
-
+			while DoesEntityExist(vehicleId) do
+				Wait(500)
 				attempts = attempts + 1
 
 				-- Give up
@@ -158,11 +157,11 @@ function StoreNearbyVehicle(playerCoords)
 				end
 
 				vehicles = ESX.Game.GetVehiclesInArea(playerCoords, 30.0)
-
 				if #vehicles > 0 then
-					for k, v in ipairs(vehicles) do
-						if ESX.Math.Trim(GetVehicleNumberPlateText(v)) == vehicleId.plate then
-							ESX.Game.DeleteVehicle(v)
+					for i = 1, #vehicles do
+						local vehicle = vehicles[i]
+						if ESX.Math.Trim(GetVehicleNumberPlateText(vehicle)) == plate then
+							ESX.Game.DeleteVehicle(vehicle)
 							break
 						end
 					end
@@ -170,19 +169,18 @@ function StoreNearbyVehicle(playerCoords)
 			end
 
 			isBusy = false
-
 			ESX.ShowNotification(_U('garage_has_stored'))
 		else
 			ESX.ShowNotification(_U('garage_has_notstored'))
 		end
-	end, vehiclePlates)
+	end, plates)
 end
 
 function GetAvailableVehicleSpawnPoint(hospital, part, partNum)
 	local spawnPoints = Config.Hospitals[hospital][part][partNum].SpawnPoints
 	local found, foundSpawnPoint = false, nil
 
-	for i = 1, #spawnPoints, 1 do
+	for i=1, #spawnPoints, 1 do
 		if ESX.Game.IsSpawnPointClear(spawnPoints[i].coords, spawnPoints[i].radius) then
 			found, foundSpawnPoint = true, spawnPoints[i]
 			break
@@ -199,35 +197,31 @@ end
 
 function OpenShopMenu(elements, restoreCoords, shopCoords)
 	local playerPed = PlayerPedId()
-
 	isInShopMenu = true
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'vehicle_shop', {
-		title = _U('vehicleshop_title'),
-		align = 'right',
+		title    = _U('vehicleshop_title'),
+		align    = 'top-left',
 		elements = elements
 	}, function(data, menu)
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'vehicle_shop_confirm', {
-			title = _U('vehicleshop_confirm', data.current.name, data.current.price),
-			align = 'right',
+			title    = _U('vehicleshop_confirm', data.current.name, data.current.price),
+			align    = 'top-left',
 			elements = {
 				{label = _U('confirm_no'), value = 'no'},
 				{label = _U('confirm_yes'), value = 'yes'}
-			}
-		}, function(data2, menu2)
+		}}, function(data2, menu2)
 			if data2.current.value == 'yes' then
 				local newPlate = exports['esx_vehicleshop']:GeneratePlate()
-				local vehicle = GetVehiclePedIsIn(playerPed, false)
-				local props = ESX.Game.GetVehicleProperties(vehicle)
-
-				props.plate = newPlate
+				local vehicle  = GetVehiclePedIsIn(playerPed, false)
+				local props    = ESX.Game.GetVehicleProperties(vehicle)
+				props.plate    = newPlate
 
 				ESX.TriggerServerCallback('esx_ambulancejob:buyJobVehicle', function(bought)
 					if bought then
 						ESX.ShowNotification(_U('vehicleshop_bought', data.current.name, ESX.Math.GroupDigits(data.current.price)))
 
 						isInShopMenu = false
-
 						ESX.UI.Menu.CloseAll()
 
 						DeleteSpawnedVehicles()
@@ -237,7 +231,6 @@ function OpenShopMenu(elements, restoreCoords, shopCoords)
 						ESX.Game.Teleport(playerPed, restoreCoords)
 					else
 						ESX.ShowNotification(_U('vehicleshop_money'))
-
 						menu2.close()
 					end
 				end, props, data.current.type)
@@ -262,7 +255,6 @@ function OpenShopMenu(elements, restoreCoords, shopCoords)
 
 		ESX.Game.SpawnLocalVehicle(data.current.model, shopCoords, 0.0, function(vehicle)
 			table.insert(spawnedVehicles, vehicle)
-
 			TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 			FreezeEntityPosition(vehicle, true)
 			SetModelAsNoLongerNeeded(data.current.model)
@@ -274,10 +266,8 @@ function OpenShopMenu(elements, restoreCoords, shopCoords)
 	end)
 
 	WaitForVehicleToLoad(elements[1].model)
-
 	ESX.Game.SpawnLocalVehicle(elements[1].model, shopCoords, 0.0, function(vehicle)
 		table.insert(spawnedVehicles, vehicle)
-
 		TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 		FreezeEntityPosition(vehicle, true)
 		SetModelAsNoLongerNeeded(elements[1].model)
@@ -288,25 +278,23 @@ function OpenShopMenu(elements, restoreCoords, shopCoords)
 	end)
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		sleep = 1500
 
 		if isInShopMenu then
+			sleep = 0
 			DisableControlAction(0, 75, true)  -- Disable exit vehicle
 			DisableControlAction(27, 75, true) -- Disable exit vehicle
-		else
-			Citizen.Wait(500)
 		end
+		Wait(sleep)
 	end
 end)
 
 function DeleteSpawnedVehicles()
 	while #spawnedVehicles > 0 do
 		local vehicle = spawnedVehicles[1]
-
 		ESX.Game.DeleteVehicle(vehicle)
-
 		table.remove(spawnedVehicles, 1)
 	end
 end
@@ -322,8 +310,7 @@ function WaitForVehicleToLoad(modelHash)
 		EndTextCommandBusyspinnerOn(4)
 
 		while not HasModelLoaded(modelHash) do
-			Citizen.Wait(0)
-
+			Wait(0)
 			DisableAllControlActions(0)
 		end
 

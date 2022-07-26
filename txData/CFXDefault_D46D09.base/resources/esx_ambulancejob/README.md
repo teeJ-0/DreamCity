@@ -7,36 +7,19 @@ ESX Ambulance Job is an plugin for ESX with features:
 
 ## Requirements
 
-* Auto mode
-   - [esx_skin](https://github.com/esx-legacy/esx_skin)
-   - [esx_vehicleshop](https://github.com/esx-legacy/esx_vehicleshop)
+`Required`:
 
-* Player management (boss actions)
-   - [esx_society](https://github.com/esx-legacy/esx_society)
+- [esx_skin](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/esx_skin)
+- [esx_vehicleshop](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_vehicleshop)
 
-## Download & Installation
+`Optional`:
 
-### Using Git
-```
-cd resources
-git clone https://github.com/esx-legacy/esx_ambulancejob [esx]/esx_ambulancejob
-```
+- [esx_society](https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_society)
 
-### Manually
-- Download https://github.com/esx-legacy/esx_ambulancejob/archive/master.zip
-- Put it in the `[esx]` directory
+## Legal
 
-## Installation
-- Import `esx_ambulancejob.sql` in your database
-- If you want player management you have to set `Config.EnablePlayerManagement` to `true` in `config.lua`
-- Add this in your `server.cfg`:
-
-```
-ensure esx_ambulancejob
-```
-
-# Legal
 ### License
+
 esx_ambulancejob - ambulance script for fivem
 
 Copyright (C) 2015-2022 Jérémie N'gadi

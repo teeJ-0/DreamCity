@@ -4,22 +4,21 @@ game 'gta5'
 
 description 'ESX Mechanic Job'
 
-version '1.0.1'
+version '1.7.5'
+
+shared_script '@es_extended/imports.lua'
 
 client_scripts {
 	'@es_extended/locale.lua',
-	'locales/en.lua',
-	'locales/nl.lua',
+	'locales/*.lua',
 	'config.lua',
 	'client/main.lua'
 }
 
 server_scripts {
 	'@es_extended/locale.lua',
-	'locales/en.lua',
-	'locales/nl.lua',
+	'locales/*.lua',
 	'config.lua',
-	'@mysql-async/lib/MySQL.lua',
 	'server/main.lua'
 }
 
@@ -28,4 +27,3 @@ dependencies {
 	'esx_society',
 	'esx_billing'
 }
-exports { 'OpenMobileMechanicActionsMenu' }

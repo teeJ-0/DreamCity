@@ -1,23 +1,25 @@
-fx_version 'cerulean'
+fx_version 'adamant'
+
 game 'gta5'
 
-lua54 'yes'
-
 description 'ESX Ambulance Job'
-version '1.2.0'
+
+version '1.7.5'
+
+shared_scripts { 
+	'@es_extended/imports.lua',
+	'@es_extended/locale.lua',
+	'locales/*.lua',
+	'config.lua'
+}
+
 
 server_scripts {
 	'@oxmysql/lib/MySQL.lua',
-	'@es_extended/locale.lua',
-	'locales/*.lua',
-	'config.lua',
 	'server/main.lua'
 }
 
 client_scripts {
-	'@es_extended/locale.lua',
-	'locales/*.lua',
-	'config.lua',
 	'client/main.lua',
 	'client/job.lua',
 	'client/vehicle.lua',

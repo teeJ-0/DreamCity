@@ -27,7 +27,6 @@ body {
 	top: 50%;
     right: 25;
     transform: translate(0, -50%);
-	background: rgba(0,0,0,0.7);
 }
 
 .header {
@@ -57,8 +56,9 @@ body {
 	height: calc(100vh - 6rem);
 	width: 20rem;
 	padding: 1rem;
+	background: rgba(10, 10, 10, 0.9);
 	border: 1px rgba(12,12,12,200) solid;
-	box-shadow: 0px 0px 4px 1px rgba(12,12,12,20);
+	border-radius: 5%;
 }
 
 h1 {

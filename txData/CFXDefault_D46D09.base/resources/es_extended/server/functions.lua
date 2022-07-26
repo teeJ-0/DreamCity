@@ -255,6 +255,20 @@ function ESX.GetIdentifier(playerId)
 	end
 end
 
+function ESX.GetExtendedPlayers(key, val)
+	local xPlayers = {}
+	for k, v in pairs(ESX.Players) do
+		if key then
+			if (key == 'job' and v.job.name == val) or v[key] == val then
+				table.insert(xPlayers, v)
+			end
+		else
+			table.insert(xPlayers, v)
+		end
+	end
+	return xPlayers
+end
+
 function ESX.RefreshJobs() 
 	local Jobs = {}
 	local jobs = MySQL.query.await('SELECT * FROM jobs')

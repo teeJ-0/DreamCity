@@ -419,3 +419,97 @@
 [02:08:20] [Tristen_Rodriguez] logged in via in-game ui
 [02:15:01] [Tristen_Rodriguez] RESTART SERVER
 [02:16:06] [Tristen_Rodriguez] logged in via in-game ui
+[10:59:44] [MONITOR] Restarting server (server partial hang detected).
+[10:59:44] [MONITOR] Restarting server (server partial hang detected).
+[11:00:45] [MONITOR] Restarting server (server failed to start within 300 seconds).
+[11:16:10] [Tristen_Rodriguez] logged in via in-game ui
+[11:35:15] [Tristen_Rodriguez] RESTART SERVER
+[11:35:55] [Tristen_Rodriguez] logged in via in-game ui
+[14:45:04] [Tristen_Rodriguez] logged in via in-game ui
+[14:49:29] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[14:52:09] [Tristen_Rodriguez] logged in via in-game ui
+[14:53:54] [Tristen_Rodriguez] logged in via in-game ui
+[14:55:51] [Tristen_Rodriguez] logged in via in-game ui
+[15:01:37] [Tristen_Rodriguez] logged in via in-game ui
+[15:03:32] [Tristen_Rodriguez] logged in via in-game ui
+[15:07:51] [Tristen_Rodriguez] logged in via in-game ui
+[15:08:22] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:08:46] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:08:58] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:09:59] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:10:19] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:10:45] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:11:23] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:11:51] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:12:11] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:12:41] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:13:19] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:13:49] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:14:50] [Tristen_Rodriguez] ensure "esx_multicharacter"
+[15:25:23] [Tristen_Rodriguez] logged in via in-game ui
+[15:25:25] [Tristen_Rodriguez] ensure "esx_identity"
+[15:26:09] [Tristen_Rodriguez] logged in via in-game ui
+[15:26:26] [Tristen_Rodriguez] RESTART SERVER
+[15:26:56] [Tristen_Rodriguez] logged in via in-game ui
+[15:28:35] [Tristen_Rodriguez] RESTART SERVER
+[15:29:41] [Tristen_Rodriguez] logged in via in-game ui
+[15:30:07] [Tristen_Rodriguez] ensure "esx_identity"
+[15:30:24] [Tristen_Rodriguez] RESTART SERVER
+[15:31:01] [Tristen_Rodriguez] logged in via in-game ui
+[15:32:42] [Tristen_Rodriguez] RESTART SERVER
+[15:33:20] [Tristen_Rodriguez] logged in via in-game ui
+[15:42:22] [eddy_galapagos] logged in via in-game ui
+[15:42:29] [Tristen_Rodriguez] RESTART SERVER
+
+================================================================
+======== txAdmin Starting - 7/25/2022, 3:46:10 PM               
+================================================================
+[15:46:31] [eddy_galapagos] logged in via in-game ui
+[15:46:32] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
+[15:46:53] [Tristen_Rodriguez] logged in via in-game ui
+[15:50:08] [eddy_galapagos] Kicked #1: fu
+[15:50:58] [eddy_galapagos] logged in via in-game ui
+[16:12:24] [Tristen_Rodriguez] stop "grab"
+[16:13:08] [Tristen_Rodriguez] ensure "grab"
+[16:14:00] [Tristen_Rodriguez] stop "grab"
+[16:14:17] [Tristen_Rodriguez] Kicked #4: 1
+[16:15:04] [eddy_galapagos] logged in via in-game ui
+[17:46:05] [Tristen_Rodriguez] ensure "esx_ambulancejob"
+[17:55:08] [eddy_galapagos] logged in via in-game ui
+[17:58:20] [Tristen_Rodriguez] ensure "esx_ambulancejob"
+[17:59:20] [Tristen_Rodriguez] RESTART SERVER
+[18:00:13] [Tristen_Rodriguez] logged in via in-game ui
+[18:00:24] [eddy_galapagos] logged in via in-game ui
+[18:03:52] [Tristen_Rodriguez] logged in from via NUI iframe
+[18:04:19] [Tristen_Rodriguez] Editing user 'eddy_galapagos'.
+[18:04:20] [Tristen_Rodriguez] logged in via in-game ui
+[18:04:20] [eddy_galapagos] logged in via in-game ui
+[18:04:27] [Tristen_Rodriguez] logged in via in-game ui
+[18:04:27] [eddy_galapagos] logged in via in-game ui
+[18:11:34] [Tristen_Rodriguez] ensure "esx_mechanicjob"
+[18:27:04] [Tristen_Rodriguez] ensure "esx_mechanicjob"
+[18:27:16] [Tristen_Rodriguez] RESTART SERVER
+[18:27:47] [Tristen_Rodriguez] logged in via in-game ui
+[18:28:24] [eddy_galapagos] logged in via in-game ui
+[18:39:34] [Tristen_Rodriguez] RESTART SERVER
+[18:40:17] [Tristen_Rodriguez] RESTART SERVER
+[18:41:12] [Tristen_Rodriguez] logged in via in-game ui
+[18:42:05] [eddy_galapagos] logged in via in-game ui
+[18:43:57] [eddy_galapagos] logged in from via NUI iframe
+[19:28:36] [Tristen_Rodriguez] RESTART SERVER
+[19:29:19] [Tristen_Rodriguez] logged in via in-game ui
+[19:31:06] [eddy_galapagos] logged in via in-game ui
+[19:41:28] [Tristen_Rodriguez] RESTART SERVER
+[19:43:29] [eddy_galapagos] logged in via in-game ui
+[19:53:09] [Tristen_Rodriguez] logged in via in-game ui
+[19:59:35] [Tristen_Rodriguez] ensure "esx_mechanicjob"
+[20:00:54] [Tristen_Rodriguez] RESTART SERVER
+[20:01:36] [Tristen_Rodriguez] logged in via in-game ui
+[20:01:44] [eddy_galapagos] logged in via in-game ui
+[20:18:30] [Tristen_Rodriguez] RESTART SERVER
+[20:19:17] [Tristen_Rodriguez] logged in via in-game ui
+[20:23:33] [Tristen_Rodriguez] RESTART SERVER
+[20:24:16] [Tristen_Rodriguez] logged in via in-game ui
+[20:33:15] [Tristen_Rodriguez] ensure "esx_society"
+[20:34:34] [Tristen_Rodriguez] RESTART SERVER
+[20:35:17] [Tristen_Rodriguez] logged in via in-game ui
