@@ -36,7 +36,7 @@ end)
 function OpenCashregister()
   exports['mythic_progbar']:Progress({
       name = "cash_Register_opening",
-      duration = 5800, -- YOU CAN CHANGE THE TIME YOU WANT TO OPEN THE CASH REGISTER
+      duration = 10000, -- YOU CAN CHANGE THE TIME YOU WANT TO OPEN THE CASH REGISTER
       label = 'Opening the cash register...',
       useWhileDead = false,
       canCancel = true,
