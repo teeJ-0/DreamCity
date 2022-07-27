@@ -513,3 +513,82 @@
 [20:33:15] [Tristen_Rodriguez] ensure "esx_society"
 [20:34:34] [Tristen_Rodriguez] RESTART SERVER
 [20:35:17] [Tristen_Rodriguez] logged in via in-game ui
+[05:07:59] [MONITOR] Restarting server (server partial hang detected).
+[05:07:59] [MONITOR] Restarting server (server partial hang detected).
+[05:09:01] [MONITOR] Restarting server (server failed to start within 300 seconds).
+[06:58:30] [Tristen_Rodriguez] RESTART SERVER
+[06:59:22] [Tristen_Rodriguez] logged in via in-game ui
+[07:03:20] [Tristen_Rodriguez] RESTART SERVER
+[07:16:22] [Tristen_Rodriguez] RESTART SERVER
+[07:17:15] [Tristen_Rodriguez] logged in via in-game ui
+[07:26:45] [eddy_galapagos] logged in via in-game ui
+[07:28:47] [Tristen_Rodriguez] RESTART SERVER
+[07:29:42] [eddy_galapagos] logged in via in-game ui
+[07:42:27] [Tristen_Rodriguez] RESTART SERVER
+[07:49:49] [eddy_galapagos] logged in via in-game ui
+[08:07:52] [Tristen_Rodriguez] RESTART SERVER
+[08:08:49] [eddy_galapagos] logged in via in-game ui
+[08:15:13] [Tristen_Rodriguez] RESTART SERVER
+[08:17:27] [eddy_galapagos] logged in via in-game ui
+[08:20:59] [Tristen_Rodriguez] RESTART SERVER
+[08:21:45] [eddy_galapagos] logged in via in-game ui
+[08:55:58] [Tristen_Rodriguez] RESTART SERVER
+[08:57:02] [eddy_galapagos] logged in via in-game ui
+[09:49:11] [Tristen_Rodriguez] RESTART SERVER
+[09:49:51] [eddy_galapagos] logged in via in-game ui
+[10:04:58] [Tristen_Rodriguez] logged in via in-game ui
+[10:11:47] [Tristen_Rodriguez] logged in from via NUI iframe
+[10:12:06] [Tristen_Rodriguez] Editing user 'eddy_galapagos'.
+[10:12:06] [Tristen_Rodriguez] logged in via in-game ui
+[10:12:06] [eddy_galapagos] logged in via in-game ui
+[10:12:07] [Tristen_Rodriguez] logged in via in-game ui
+[10:12:07] [eddy_galapagos] logged in via in-game ui
+[10:33:47] [Tristen_Rodriguez] RESTART SERVER
+[10:34:39] [eddy_galapagos] logged in via in-game ui
+[10:42:18] [Tristen_Rodriguez] RESTART SERVER
+[10:43:13] [eddy_galapagos] logged in via in-game ui
+[10:46:38] [eddy_galapagos] logged in from via NUI iframe
+[10:47:54] [eddy_galapagos] RESTART SERVER
+[10:48:59] [eddy_galapagos] logged in via in-game ui
+[10:56:39] [Tristen_Rodriguez] RESTART SERVER
+[10:58:03] [eddy_galapagos] logged in via in-game ui
+[11:07:56] [Tristen_Rodriguez] RESTART SERVER
+[11:11:44] [Tristen_Rodriguez] RESTART SERVER
+[11:18:10] [Tristen_Rodriguez] RESTART SERVER
+[11:20:41] [eddy_galapagos] logged in via in-game ui
+[12:08:26] [Tristen_Rodriguez] RESTART SERVER
+[12:09:17] [eddy_galapagos] logged in via in-game ui
+[12:18:03] [Tristen_Rodriguez] logged in via in-game ui
+[12:28:03] [Tristen_Rodriguez] server reset in 1 minute return vehicles
+[12:28:43] [Tristen_Rodriguez] Sending announcement: the server will restart in 2 minutes, return vehicles
+[12:29:49] [Tristen_Rodriguez] RESTART SERVER
+[12:31:19] [eddy_galapagos] logged in via in-game ui
+[12:54:25] [eddy_galapagos] RESTART SERVER
+[12:55:07] [eddy_galapagos] logged in via in-game ui
+[13:07:39] [Tristen_Rodriguez] Sending announcement: added car turn on/off, you have to reset server when you're ready
+[13:12:30] [eddy_galapagos] RESTART SERVER
+[13:13:11] [eddy_galapagos] logged in via in-game ui
+[13:24:59] [Tristen_Rodriguez] RESTART SERVER
+[13:26:48] [eddy_galapagos] logged in via in-game ui
+[13:44:40] [eddy_galapagos] RESTART SERVER
+[13:46:33] [eddy_galapagos] logged in via in-game ui
+[14:04:27] [Tristen_Rodriguez] RESTART SERVER
+[14:09:18] [eddy_galapagos] logged in via in-game ui
+[14:15:15] [eddy_galapagos] logged in via in-game ui
+[14:28:41] [Tristen_Rodriguez] RESTART SERVER
+[14:34:59] [Tristen_Rodriguez] logged in via in-game ui
+[14:37:46] [eddy_galapagos] logged in via in-game ui
+[14:39:10] [Tristen_Rodriguez] RESTART SERVER
+[14:47:09] [eddy_galapagos] logged in via in-game ui
+[15:14:52] [eddy_galapagos] RESTART SERVER
+[15:16:15] [eddy_galapagos] logged in via in-game ui
+[15:22:42] [Tristen_Rodriguez] ensure "esx_robcashregister"
+[15:29:19] [Tristen_Rodriguez] ensure "esx_robcashregister"
+[15:31:14] [Tristen_Rodriguez] RESTART SERVER
+[15:31:31] [Tristen_Rodriguez] RESTART SERVER
+[15:31:56] [eddy_galapagos] logged in via in-game ui
+[15:36:28] [Tristen_Rodriguez] ensure "esx_robcashregister"
+[15:39:14] [Tristen_Rodriguez] ensure "esx_robcashregister"
+[15:41:09] [Tristen_Rodriguez] ensure "esx_robcashregister"
+[15:46:49] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
+[15:47:21] [Tristen_Rodriguez] ensure "esx_robcashregister"

@@ -3,6 +3,13 @@ local HasAlreadyEnteredMarker, isDead, isHandcuffed, hasAlreadyJoined, playerInS
 local LastStation, LastPart, LastPartNum, LastEntity, CurrentAction, CurrentActionMsg
 dragStatus.isDragged, isInShopMenu = false, false
 ESX = nil
+local PlayerData = {}
+
+RegisterNetEvent("esx:playerLoaded")
+AddEventHandler("esx:playerLoaded", function(response)
+	ESX.PlayerData = response
+end)
+
 
 Citizen.CreateThread(function()
 	while ESX == nil do

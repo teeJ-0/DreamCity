@@ -29,6 +29,8 @@
         "data": {}
       }
     },
-    "permissions": []
+    "permissions": [
+      "all_permissions"
+    ]
   }
 ]

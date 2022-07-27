@@ -36,7 +36,7 @@ end)
 function OpenCashregister()
   exports['mythic_progbar']:Progress({
       name = "cash_Register_opening",
-      duration = 10000, -- YOU CAN CHANGE THE TIME YOU WANT TO OPEN THE CASH REGISTER
+      duration = 5800, -- YOU CAN CHANGE THE TIME YOU WANT TO OPEN THE CASH REGISTER
       label = 'Opening the cash register...',
       useWhileDead = false,
       canCancel = true,
@@ -105,7 +105,7 @@ end
 function startRobbing ()
   exports['mythic_progbar']:Progress({
       name = "unique_action_name",
-      duration = 150000, -- YOU CAN CHANGE THE TIME YOU WANT TO THEY TAKE TO STEAL
+      duration = 2000, -- YOU CAN CHANGE THE TIME YOU WANT TO THEY TAKE TO STEAL
       label = 'Stealing the cash from the cash register...',
       useWhileDead = false,
       canCancel = true,
