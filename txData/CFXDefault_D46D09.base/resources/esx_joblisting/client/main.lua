@@ -25,7 +25,6 @@ function ShowJobListingMenu()
 			menuIsShowed = false
 			menu.close()
 		end)
-
 	end)
 end
 

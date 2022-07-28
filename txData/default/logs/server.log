@@ -1,223 +1,60 @@
 
 ================================================================
-======== Log Rotated - 7/26/2022, 5:07:59 AM                    
+======== Log Rotated - 7/28/2022, 12:00:00 AM                   
 ================================================================
-[5:09:06 AM] txAdmin: Logger started
-[6:58:38 AM] txAdmin: Logger started
-[6:59:05 AM] [pQ34A#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[7:03:13 AM] [pQ34A#1] gunnsiK: disconnected (Exiting)
-[7:03:25 AM] txAdmin: Logger started
-[7:16:27 AM] txAdmin: Logger started
-[7:16:59 AM] [i8j8E#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[7:18:04 AM] [i8j8E#1] gunnsiK: spawned a vehicle (model: adder)
-[7:26:29 AM] [i8j8E#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[7:28:47 AM] [i8j8E#1] gunnsiK: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[7:28:47 AM] [i8j8E#2] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[7:28:55 AM] txAdmin: Logger started
-[7:29:31 AM] [4xCgH#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[7:42:32 AM] txAdmin: Logger started
-[7:49:34 AM] [HCDnT#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[8:07:52 AM] [HCDnT#1] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[8:07:57 AM] txAdmin: Logger started
-[8:08:38 AM] [AYGb7#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[8:15:13 AM] [AYGb7#1] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[8:15:18 AM] txAdmin: Logger started
-[8:17:16 AM] [UxQee#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[8:19:53 AM] [UxQee#1] Eddy_Galapagos: said "/seat 2"
-[8:21:00 AM] [UxQee#1] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[8:21:05 AM] txAdmin: Logger started
-[8:21:33 AM] [kVNQh#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[8:23:06 AM] [kVNQh#1] Eddy_Galapagos: said "/seat"
-[8:23:09 AM] [kVNQh#1] Eddy_Galapagos: said "/seat 2"
-[8:49:10 AM] [kVNQh#1] Eddy_Galapagos: disconnected (Disconnected.)
-[8:56:03 AM] txAdmin: Logger started
-[8:56:47 AM] [hzmNg#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[9:23:37 AM] [hzmNg#1] Eddy_Galapagos: said "/keys"
-[9:49:16 AM] txAdmin: Logger started
-[9:49:40 AM] [UBdGG#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[10:04:42 AM] [UBdGG#2] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[10:08:46 AM] [UBdGG#3] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:10:01 AM] [UBdGG#2] gunnsiK: teleported to a waypoint
-[10:11:31 AM] [UBdGG#2] gunnsiK: teleported to a waypoint
-[10:12:38 AM] [UBdGG#1] Eddy_Galapagos: said "/cops"
-[10:16:02 AM] [UBdGG#2] gunnsiK: disconnected (Exiting)
-[10:22:07 AM] [UBdGG#3] oriet: said "/carry"
-[10:27:38 AM] [UBdGG#1] Eddy_Galapagos: said "/lock"
-[10:33:52 AM] txAdmin: Logger started
-[10:34:14 AM] [PcjyF#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:34:28 AM] [PcjyF#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[10:41:46 AM] [PcjyF#1] oriet: disconnected (Game crashed: Ran out of rage::netGameEvent pool space.)
-[10:42:18 AM] [PcjyF#2] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[10:42:22 AM] txAdmin: Logger started
-[10:42:39 AM] [zfTxm#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:43:02 AM] [zfTxm#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[10:44:00 AM] [zfTxm#1] oriet: disconnected (Exiting)
-[10:44:11 AM] [zfTxm#3] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:46:39 AM] [zfTxm#3] oriet: disconnected (Exiting)
-[10:46:52 AM] [zfTxm#4] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:47:54 AM] [zfTxm#2] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[10:47:54 AM] [zfTxm#4] oriet: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[10:47:59 AM] txAdmin: Logger started
-[10:48:24 AM] [7xm6G#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:48:47 AM] [7xm6G#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[10:56:40 AM] [7xm6G#2] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[10:56:40 AM] [7xm6G#1] oriet: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[10:56:45 AM] txAdmin: Logger started
-[10:57:21 AM] [Qbh7c#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[10:57:51 AM] [Qbh7c#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[11:02:53 AM] [Qbh7c#1] oriet: died from suicide
-[11:05:48 AM] [Qbh7c#2] Eddy_Galapagos: healed player [#1] oriet
-[11:08:05 AM] txAdmin: Logger started
-[11:08:25 AM] [KRfdG#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[11:11:44 AM] [KRfdG#1] oriet: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[11:11:49 AM] txAdmin: Logger started
-[11:12:39 AM] [C3UpE#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[11:18:16 AM] txAdmin: Logger started
-[11:18:37 AM] [FBaRY#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[11:18:50 AM] [FBaRY#1] oriet: disconnected (Game crashed: gta-net-five.dll!SendGameEventRaw (0x80))
-[11:20:05 AM] [FBaRY#2] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[11:20:24 AM] [FBaRY#3] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[11:21:05 AM] [FBaRY#2] oriet: disconnected (Exiting)
-[11:21:18 AM] [FBaRY#4] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[11:33:33 AM] [FBaRY#5] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[11:42:32 AM] [FBaRY#5] easymoneylu: said "/rob"
-[11:51:38 AM] [FBaRY#5] easymoneylu: said "/CUFF"
-[12:08:14 PM] [FBaRY#3] Eddy_Galapagos: summoned player [#5] easymoneylu
-[12:08:26 PM] [FBaRY#3] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[12:08:26 PM] [FBaRY#5] easymoneylu: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[12:08:26 PM] [FBaRY#4] oriet: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[12:08:31 PM] txAdmin: Logger started
-[12:09:05 PM] [dNEz3#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[12:09:05 PM] [dNEz3#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[12:09:22 PM] [dNEz3#3] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[12:15:32 PM] [dNEz3#2] Eddy_Galapagos: toggled freeze on player [#3] easymoneylu
-[12:15:32 PM] [dNEz3#2] Eddy_Galapagos: summoned player [#3] easymoneylu
-[12:15:43 PM] [dNEz3#3] easymoneylu: died from suicide
-[12:15:54 PM] [dNEz3#1] oriet: died from suicide (Pistol)
-[12:17:44 PM] [dNEz3#4] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[12:17:53 PM] [dNEz3#2] Eddy_Galapagos: enabled god mode
-[12:18:00 PM] [dNEz3#2] Eddy_Galapagos: healed player [#3] easymoneylu
-[12:18:04 PM] [dNEz3#2] Eddy_Galapagos: healed player [#1] oriet
-[12:18:13 PM] [dNEz3#4] gunnsiK: disconnected (Exiting)
-[12:20:16 PM] [dNEz3#3] easymoneylu: said "/ROB"
-[12:20:25 PM] [dNEz3#2] Eddy_Galapagos: repaired their vehicle
-[12:20:47 PM] [dNEz3#3] easymoneylu: died from Pistol by oriet
-[12:21:29 PM] [dNEz3#2] Eddy_Galapagos: healed player [#3] easymoneylu
-[12:21:43 PM] [dNEz3#1] oriet: died from Fist by easymoneylu
-[12:22:06 PM] [dNEz3#2] Eddy_Galapagos: healed all players!
-[12:22:16 PM] [dNEz3#2] Eddy_Galapagos: healed player [#1] oriet
-[12:22:35 PM] [dNEz3#3] easymoneylu: said "/SHOWIN"
-[12:23:14 PM] [dNEz3#2] Eddy_Galapagos: toggled freeze on player [#3] easymoneylu
-[12:28:43 PM] txAdmin: ((Broadcast) Tristen_Rodriguez): said "the server will restart in 2 minutes, return vehicles"
-[12:29:54 PM] txAdmin: Logger started
-[12:30:14 PM] [6FDaL#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[12:30:52 PM] [6FDaL#2] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[12:31:08 PM] [6FDaL#3] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[12:40:54 PM] [6FDaL#2] easymoneylu: died from Carbine Rifle by oriet
-[12:41:02 PM] [6FDaL#2] easymoneylu: disconnected (Exiting)
-[12:44:54 PM] [6FDaL#4] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[12:46:40 PM] [6FDaL#4] easymoneylu: died from suicide (Falling)
-[12:46:50 PM] [6FDaL#3] Eddy_Galapagos: died from suicide (Pistol)
-[12:47:34 PM] [6FDaL#3] Eddy_Galapagos: healed player [#3] Eddy_Galapagos
-[12:51:54 PM] [6FDaL#1] oriet: died from suicide (Pistol)
-[12:54:26 PM] [6FDaL#1] oriet: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[12:54:26 PM] [6FDaL#3] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[12:54:26 PM] [6FDaL#4] easymoneylu: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[12:54:30 PM] txAdmin: Logger started
-[12:54:51 PM] [WafFg#1] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[12:54:55 PM] [WafFg#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[12:55:04 PM] [WafFg#3] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[1:01:50 PM] [WafFg#1] oriet: disconnected (Exiting)
-[1:07:39 PM] txAdmin: ((Broadcast) Tristen_Rodriguez): said "added car turn on/off, you have to reset server when you're ready"
-[1:08:06 PM] [WafFg#2] Eddy_Galapagos: made a server-wide announcement: Will do @TJ
-[1:08:57 PM] [WafFg#2] Eddy_Galapagos: teleported to a waypoint
-[1:10:21 PM] [WafFg#3] easymoneylu: said "/showinv"
-[1:12:30 PM] [WafFg#2] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[1:12:30 PM] [WafFg#3] easymoneylu: disconnected (Server shutting down: Server restarting (eddy_galapagos).)
-[1:12:35 PM] txAdmin: Logger started
-[1:12:59 PM] [zwVtW#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[1:13:04 PM] [zwVtW#2] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[1:19:31 PM] [zwVtW#1] Eddy_Galapagos: said "t"
-[1:20:06 PM] [zwVtW#1] Eddy_Galapagos: said "tttttawwadsttt"
-[1:20:07 PM] [zwVtW#1] Eddy_Galapagos: said "awd"
-[1:25:04 PM] txAdmin: Logger started
-[1:26:27 PM] [xUwJP#1] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[1:26:34 PM] [xUwJP#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[1:35:58 PM] [xUwJP#1] easymoneylu: said "/dance"
-[1:40:57 PM] [xUwJP#1] easymoneylu: disconnected (Exiting)
-[1:44:45 PM] txAdmin: Logger started
-[1:46:23 PM] [J9FTj#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[1:53:27 PM] [J9FTj#1] Eddy_Galapagos: repaired their vehicle
-[2:00:46 PM] [J9FTj#1] Eddy_Galapagos: disconnected (Exiting)
-[2:04:32 PM] txAdmin: Logger started
-[2:09:04 PM] [KHDp9#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[2:14:24 PM] [KHDp9#1] Eddy_Galapagos: disconnected (Disconnected.)
-[2:15:04 PM] [KHDp9#2] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[2:24:45 PM] [KHDp9#2] Eddy_Galapagos: disconnected (Exiting)
-[2:28:46 PM] txAdmin: Logger started
-[2:34:43 PM] [PAk46#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[2:35:49 PM] [PAk46#2] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[2:35:56 PM] [PAk46#1] gunnsiK: teleported to a waypoint
-[2:37:31 PM] [PAk46#3] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[2:38:29 PM] [PAk46#1] gunnsiK: died from suicide (Falling)
-[2:38:53 PM] [PAk46#3] Eddy_Galapagos: healed player [#1] gunnsiK
-[2:39:10 PM] [PAk46#3] Eddy_Galapagos: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[2:39:10 PM] [PAk46#1] gunnsiK: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[2:39:10 PM] [PAk46#2] easymoneylu: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
-[2:39:18 PM] txAdmin: Logger started
-[2:46:59 PM] [BQVdp#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[2:55:24 PM] [BQVdp#2] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[2:58:48 PM] [BQVdp#1] Eddy_Galapagos: summoned player [#2] easymoneylu
-[3:06:20 PM] [BQVdp#2] easymoneylu: said "/SHOWINV"
-[3:09:36 PM] [BQVdp#2] easymoneylu: said "/CUFF"
-[3:09:49 PM] [BQVdp#2] easymoneylu: said "/cuff"
-[3:10:53 PM] [BQVdp#2] easymoneylu: said "/stealcash"
-[3:14:58 PM] txAdmin: Logger started
-[3:16:04 PM] [XBCPk#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[3:17:07 PM] [XBCPk#2] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[3:27:56 PM] [XBCPk#1] Eddy_Galapagos: died from suicide (Fist)
-[3:28:07 PM] [XBCPk#1] Eddy_Galapagos: healed player [#1] Eddy_Galapagos
-[3:28:08 PM] [XBCPk#1] Eddy_Galapagos: died from suicide (Fist)
-[3:31:19 PM] txAdmin: Logger started
-[3:31:36 PM] txAdmin: Logger started
-[3:31:44 PM] [7VMTa#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[3:37:40 PM] [7VMTa#2] oriet: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
-[3:40:56 PM] [7VMTa#1] Eddy_Galapagos: started spectating player [#2] oriet
-[3:43:02 PM] [7VMTa#1] Eddy_Galapagos: teleported to player [??] unknown (x=170.426, y=-841.582, z=30.493)
-[3:52:41 PM] [7VMTa#2] oriet: died from suicide
-[3:53:00 PM] [7VMTa#1] Eddy_Galapagos: healed player [#2] oriet
-[3:53:13 PM] [7VMTa#1] Eddy_Galapagos: died from Carbine Rifle by oriet
-[3:53:33 PM] [7VMTa#1] Eddy_Galapagos: healed player [#1] Eddy_Galapagos
-[3:58:46 PM] [7VMTa#3] easymoneylu: joined with identifiers [steam:110000142c1fcfc; license:fcf7687c739a0744481a29d4c71cbba9ec5cae64; xbl:2535472615004035; live:844428492441357; discord:741345247229116416; fivem:2549877; license2:036e90b4fe69bcc6cad0a290b3aac80944571a47]
-[4:00:07 PM] [7VMTa#1] Eddy_Galapagos: repaired their vehicle
-[4:03:54 PM] [7VMTa#1] Eddy_Galapagos: said "mechanicmenu"
-[4:07:30 PM] [7VMTa#3] easymoneylu: disconnected (Exiting)
-[4:15:17 PM] [7VMTa#1] Eddy_Galapagos: triggered drunk effect on [#2] oriet
-[4:16:44 PM] [7VMTa#1] Eddy_Galapagos: healed player [#2] oriet
-[4:23:04 PM] [7VMTa#1] Eddy_Galapagos: teleported to player [??] unknown (x=452.862, y=-993.231, z=30.678)
-[4:25:02 PM] [7VMTa#2] oriet: died from Pistol by Eddy_Galapagos
-[4:25:09 PM] [7VMTa#1] Eddy_Galapagos: healed player [#2] oriet
-[4:28:11 PM] [7VMTa#1] Eddy_Galapagos: repaired their vehicle
-[4:39:55 PM] [7VMTa#1] Eddy_Galapagos: summoned player [#2] oriet
-[4:40:56 PM] [7VMTa#2] oriet: disconnected (Exiting)
-[4:46:28 PM] [7VMTa#1] Eddy_Galapagos: disconnected (Exiting)
-[7:30:34 PM] txAdmin: Logger started
-[7:31:11 PM] [RAyUN#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[7:31:39 PM] txAdmin: Logger started
-[7:32:30 PM] [q4Pga#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[7:39:08 PM] [q4Pga#2] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[7:40:12 PM] [q4Pga#2] gunnsiK: teleported to a waypoint
-[7:41:57 PM] [q4Pga#1] Eddy_Galapagos: died from suicide (Pistol)
-[7:44:28 PM] [q4Pga#2] gunnsiK: teleported to a waypoint
-[7:46:58 PM] txAdmin: Logger started
-[7:48:21 PM] [b4jhY#1] Eddy_Galapagos: joined with identifiers [steam:1100001046b0419; license:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9; xbl:2533274894145646; live:985156417703726; discord:533928210962972673; fivem:2246200; license2:35c7810a0f67b382c1b40b8fcacbfd9d60e393c9]
-[7:50:47 PM] [b4jhY#2] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
-[7:56:58 PM] [b4jhY#1] Eddy_Galapagos: enabled noclip
-[7:57:08 PM] [b4jhY#2] gunnsiK: enabled noclip
-[7:57:15 PM] [b4jhY#1] Eddy_Galapagos: became mortal (standard mode)
-[7:57:20 PM] [b4jhY#2] gunnsiK: became mortal (standard mode)
-[7:58:46 PM] [b4jhY#1] Eddy_Galapagos: enabled noclip
-[7:58:48 PM] [b4jhY#2] gunnsiK: enabled noclip
-[7:58:54 PM] [b4jhY#1] Eddy_Galapagos: became mortal (standard mode)
-[7:58:54 PM] [b4jhY#2] gunnsiK: became mortal (standard mode)
-[8:12:16 PM] [b4jhY#1] Eddy_Galapagos: disconnected (Exiting)
+
+================================================================
+======== txAdmin Starting - 7/28/2022, 6:24:55 AM               
+================================================================
+[6:25:03 AM] txAdmin: Logger started
+[6:26:36 AM] [6JcLf#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[6:27:34 AM] [6JcLf#1] gunnsiK: teleported to a waypoint
+[6:31:49 AM] [6JcLf#1] gunnsiK: disconnected (Exiting)
+[6:32:21 AM] txAdmin: Logger started
+[6:32:46 AM] [Ht9DU#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[6:50:17 AM] [Ht9DU#1] gunnsiK: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[6:50:31 AM] txAdmin: Logger started
+[6:50:47 AM] [anbMp#1] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[6:51:21 AM] [anbMp#1] gunnsiK: teleported to a waypoint
+[7:10:06 AM] [anbMp#1] gunnsiK: disconnected (Exiting)
+[8:41:14 AM] txAdmin: Logger started
+[8:41:49 AM] txAdmin: Logger started
+[9:00:43 AM] [cHxWA#1] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:02:07 AM] [cHxWA#1] Young Ace: disconnected (Exiting)
+[9:02:22 AM] [cHxWA#2] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:06:47 AM] txAdmin: Logger started
+[9:07:02 AM] [4PmjM#1] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:08:29 AM] [4PmjM#1] Young Ace: disconnected (Exiting)
+[9:08:42 AM] [4PmjM#2] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:12:32 AM] [4PmjM#2] Young Ace: disconnected (Exiting)
+[9:12:53 AM] [4PmjM#3] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:28:19 AM] [4PmjM#3] Young Ace: disconnected (Server shutting down: Server restarting (Tristen_Rodriguez).)
+[9:28:28 AM] txAdmin: Logger started
+[9:28:44 AM] [4H86y#1] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:34:37 AM] [4H86y#1] Young Ace: died from suicide (Pistol)
+[9:37:40 AM] [4H86y#1] Young Ace: disconnected (Exiting)
+[9:38:06 AM] [4H86y#2] Young Ace: joined with identifiers [license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[9:38:33 AM] [4H86y#2] Young Ace: died from suicide (Falling)
+[9:46:01 AM] [4H86y#2] Young Ace: disconnected (Exiting)
+[10:14:08 AM] txAdmin: Logger started
+[10:21:55 AM] txAdmin: Logger started
+[10:26:25 AM] [gRtgy#1] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[10:26:53 AM] [gRtgy#1] Young Ace: died from suicide (Falling)
+[10:27:16 AM] [gRtgy#1] Young Ace: disconnected (Exiting)
+[10:27:34 AM] [gRtgy#2] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[10:28:11 AM] txAdmin: Logger started
+[10:28:32 AM] [WBUTd#1] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[10:29:49 AM] [WBUTd#1] Young Ace: disconnected (Exiting)
+[10:30:03 AM] [WBUTd#2] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[10:30:28 AM] [WBUTd#2] Young Ace: died from suicide (Falling)
+[10:31:41 AM] [WBUTd#2] Young Ace: disconnected (Server->client connection timed out. Last seen 30797 msec ago.)
+[10:37:33 AM] [WBUTd#3] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[10:54:01 AM] [WBUTd#3] Young Ace: disconnected (Exiting)
+[11:21:50 AM] [WBUTd#4] Young Ace: joined with identifiers [steam:110000142ab66e3; license:6fe86f782b48d558b27a9a4e163d54cae806aba6; xbl:2533274829899171; live:985156248450191; discord:803069931209097217; fivem:7634620; license2:6fe86f782b48d558b27a9a4e163d54cae806aba6]
+[11:44:21 AM] [WBUTd#4] Young Ace: died from suicide (Fist)
+[11:46:44 AM] [WBUTd#5] gunnsiK: joined with identifiers [steam:110000141fbd95a; license:628dc61d93a30424ed1d0dfd1349167666993687; xbl:2535440257277580; live:914798168668122; discord:825590084870471730; fivem:1734549; license2:628dc61d93a30424ed1d0dfd1349167666993687]
+[11:49:38 AM] [WBUTd#5] gunnsiK: teleported to a waypoint
+[11:58:09 AM] [WBUTd#5] gunnsiK: disconnected (Exiting)
+[12:02:50 PM] [WBUTd#4] Young Ace: disconnected (Exiting)
+[12:08:34 PM] txAdmin: Logger started
+[12:12:39 PM] txAdmin: Logger started

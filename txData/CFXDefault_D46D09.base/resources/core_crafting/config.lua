@@ -55,6 +55,23 @@ Recipes = { -- Enter Item name and then the speed value! The higher the value th
 	}
 }, 
 
+['WEAPON_VINTAGEPISTOL'] = {
+	Level = 0, -- From what level this item will be craftable
+	Category = 'weapons', -- The category item will be put in
+	isGun = true, -- Specify if this is a gun so it will be added to the loadout
+	Jobs = {}, -- What jobs can craft this item, leaving {} allows any job
+	JobGrades = {}, -- What job grades can craft this item, leaving {} allows any grade
+	Amount = 1, -- The amount that will be crafted
+	SuccessRate = 100, --  100% you will recieve the item
+	requireBlueprint = false, -- Requires a blueprint whitch you need to add in the database yourself TEMPLATE: itemname_blueprint EXAMPLE: bandage_blueprint
+	Time = 20, -- Time in seconds it takes to craft this item
+	Ingredients = { -- Ingredients needed to craft this item
+		['copper'] = 5, -- item name and count, adding items that dont exist in database will crash the script
+		['wood'] = 3,
+		['iron'] = 5
+	}
+}, 
+
 ['WEAPON_APPISTOL'] = {
 	Level = 2, -- From what level this item will be craftable
 	Category = 'weapons', -- The category item will be put in
@@ -71,6 +88,7 @@ Recipes = { -- Enter Item name and then the speed value! The higher the value th
 		['iron'] = 5
 	}
 }, 
+
 
 ['fishingrod'] = {
 	Level = 0, -- From what level this item will be craftable
@@ -111,8 +129,6 @@ Text = {
 }
 
 }
-
-
 
 function SendTextMessage(msg)
 

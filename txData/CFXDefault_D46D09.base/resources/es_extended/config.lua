@@ -50,5 +50,5 @@ Config.RemoveHudCommonents = {
 	[19] = false, --WEAPON_WHEEL
 	[20] = false, --WEAPON_WHEEL_STATS
 	[21] = false, --HUD_COMPONENTS
-	[22] = false, --HUD_WEAPONS
+	[22] = true, --HUD_WEAPONS
 }

@@ -1,8 +1,0 @@
--- Vehicle system from CoDev.
-ALTER TABLE `owned_vehicles`
-	ADD COLUMN `ignition` INT NULL DEFAULT '0',
-	ADD COLUMN `engine` INT NULL DEFAULT '0',
-	ADD COLUMN `lock` INT NULL DEFAULT '1',
-	ADD COLUMN `km` FLOAT NULL DEFAULT '0',
-	ADD COLUMN `engineCheck` FLOAT NULL DEFAULT '0',
-	ADD COLUMN `startCheck` FLOAT NULL DEFAULT '0';

@@ -3,8 +3,8 @@ Citizen.CreateThread(function()
         Citzen.Wait(0) -- Do this every tick
 
         -- Traffic and ped density mangagement
-        SetTrafficDensity(0.2)
-        SetPedDensity(0.2)
+        SetTrafficDensity(0.1)
+        SetPedDensity(0.1)
     end
 end)
 
