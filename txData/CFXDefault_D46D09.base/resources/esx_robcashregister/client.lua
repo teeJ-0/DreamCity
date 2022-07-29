@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
-RegisterCommand('stealcashregister', function(source, args, raw)
+RegisterCommand('pickregister', function(source, args, raw)
   TriggerServerEvent('esx_robcashregister:startsteal')
 end)
 
@@ -37,7 +37,7 @@ function OpenCashregister()
   exports['mythic_progbar']:Progress({
       name = "cash_Register_opening",
       duration = 10000, -- YOU CAN CHANGE THE TIME YOU WANT TO OPEN THE CASH REGISTER
-      label = 'Opening the cash register...',
+      label = 'Picking Lock...',
       useWhileDead = false,
       canCancel = true,
       controlDisables = {
@@ -47,12 +47,12 @@ function OpenCashregister()
           disableCombat = true,
       },
       animation = {
-          animDict = "melee@large_wpn@streamed_core",
-          anim = "ground_attack_on_spot",
+          animDict = "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",
+          anim = "machinic_loop_mechandplayer",
           flags = 49,
       },
       prop = {
-        model = "v_ind_cm_crowbar",
+        model = " ",
       },
   }, function(cancelled)
       if not cancelled then
@@ -105,7 +105,7 @@ end
 function startRobbing ()
   exports['mythic_progbar']:Progress({
       name = "unique_action_name",
-      duration = 2000, -- YOU CAN CHANGE THE TIME YOU WANT TO THEY TAKE TO STEAL
+      duration = 5000, -- YOU CAN CHANGE THE TIME YOU WANT TO THEY TAKE TO STEAL
       label = 'Stealing the cash from the cash register...',
       useWhileDead = false,
       canCancel = true,

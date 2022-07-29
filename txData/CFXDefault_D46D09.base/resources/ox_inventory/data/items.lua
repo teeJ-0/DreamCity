@@ -330,6 +330,14 @@ return {
 		description = nil
 	},
 
+	['keys'] = {
+		label = 'keys',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
 	['marijuana'] = {
 		label = 'marijuana',
 		weight = 2,

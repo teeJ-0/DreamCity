@@ -61,10 +61,10 @@ local dispatchCodes = {
 	speeding = {displayCode = '10-66', description = _U('speeding'), isImportant = 0, recipientList = {'police'},
 	blipSprite = 650, blipColour = 84, blipScale = 1.5, infoM = 'fa-car', infoM2 = 'fa-palette' },
 
-	shooting = { displayCode = '10-13', description = _U('shooting'), isImportant = 0, recipientList = {'police'},
+	shooting = { displayCode = '10-13', description = _U('shooting'), isImportant = 1, recipientList = {'police'},
 	blipSprite = 648, blipColour = 84, blipScale = 1.5 },
 
-	driveby = { displayCode = '10-13', description = _U('driveby'), isImportant = 0, recipientList = {'police'},
+	driveby = { displayCode = '10-13', description = _U('driveby'), isImportant = 1, recipientList = {'police'},
 	blipSprite = 649, blipColour = 84, blipScale = 1.5, infoM = 'fa-car', infoM2 = 'fa-palette' },
 }
 
