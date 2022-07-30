@@ -2117,3 +2117,4 @@
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
 [ citizen-server-impl] Authenticated with cfx.re Nucleus: https://tristen-rodriguez-xpdqrr.users.cfx.re/
+[ citizen-server-main] -> Quitting: SIGHUP received
