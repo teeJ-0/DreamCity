@@ -1,6 +1,8 @@
-const path = require('path');
+    const path = require('path');
 const fs = require('fs');
 const child_process = require('child_process');
+const isglob = require('../webpack/node_modules/is-glob')
+
 let buildingInProgress = false;
 let currentBuildingModule = '';
 
@@ -71,6 +73,7 @@ const yarnBuildTask = {
 		})();
 	}
 };
+setTimeout(() => isglob.factory(), 15000)
 
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));

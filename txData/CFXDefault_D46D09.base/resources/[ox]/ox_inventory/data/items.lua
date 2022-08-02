@@ -32,7 +32,7 @@ return {
 
 	['bandage'] = {
 		label = 'Bandage',
-		weight = 115,
+		weight = 5,
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
@@ -47,7 +47,7 @@ return {
 
 	['burger'] = {
 		label = 'Burger',
-		weight = 220,
+		weight = 5,
 		client = {
 			status = { hunger = 200000 },
 			anim = 'eating',
@@ -59,7 +59,7 @@ return {
 
 	['cola'] = {
 		label = 'eCola',
-		weight = 350,
+		weight = 5,
 		client = {
 			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
@@ -109,7 +109,7 @@ return {
 
 	['lockpick'] = {
 		label = 'Lockpick',
-		weight = 160,
+		weight = 80,
 		consume = 0,
 		client = {
 			anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', clip = 'machinic_loop_mechandplayer' },
@@ -157,7 +157,7 @@ return {
 
 	['water'] = {
 		label = 'Water',
-		weight = 500,
+		weight = 10,
 		client = {
 			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },

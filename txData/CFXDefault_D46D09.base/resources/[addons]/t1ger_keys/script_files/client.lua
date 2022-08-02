@@ -404,10 +404,10 @@ end
 Citizen.CreateThread(function()
 	while true do
 		Wait(0)
-		if IsControlJustReleased(0, 182) then
+		if IsControlJustReleased(0, 303) then
 			ToggleVehicleLock()
 		end
-		if IsControlJustReleased(0, 170) then
+		if IsControlJustReleased(0, 166) then
 			OpenCarMenu()
 		end
 	end

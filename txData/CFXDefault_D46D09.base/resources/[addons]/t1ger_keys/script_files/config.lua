@@ -9,8 +9,8 @@ Config.RegisterKeyPrice 	= 300
 Config.KeyPayBankMoney		= true	-- set to false to pay with cash instead of bank moeny
 
 -- Dependencies:
-Config.t1ger_carinsurance 	= true	-- set to false if you don't own t1ger_carinsurance script
-Config.t1ger_cardealer	  	= true	-- set to false if you don't own t1ger_cardealer script
+Config.t1ger_carinsurance 	= false	-- set to false if you don't own t1ger_carinsurance script
+Config.t1ger_cardealer	  	= false	-- set to false if you don't own t1ger_cardealer script
 
 -- Alarm Settings:
 Config.AlarmPayBankMoney = true		-- set to false, if players should pay for alarms with cash instead of bank money
