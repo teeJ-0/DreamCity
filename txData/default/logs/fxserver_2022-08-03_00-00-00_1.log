@@ -1,0 +1,869 @@
+
+================================================================
+======== Log Rotated - 8/3/2022, 5:37:57 PM                     
+================================================================
+
+================================================================
+======== FXServer Starting - 8/3/2022, 5:37:57 PM               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 93 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - SeatShuffle
+[ citizen-server-impl]     - dc_ads
+[ citizen-server-impl]     - handsup
+[ citizen-server-impl]     - nohelmet
+[ citizen-server-impl]     - progressBars
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[              cmdsys] No such command Config.Multichar.
+[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for mapmanager
+[ citizen-server-impl] Started resource mapmanager
+[    c-scripting-core] [97mCreating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[38;5;73m[ citizen-server-impl] Started resource rconlog
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[ citizen-server-impl] Started resource mysql-async
+[    c-scripting-core] Creating script environments for mysql
+[ citizen-server-impl] Started resource mysql
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_002_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_004_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_097_u.ydd uses 24.0 MiB of physical memory.
+[38;5;73m[ citizen-server-impl] Asset eup-stream/mp_m_freemode_01^hair_005_u.ydd uses 24.0 MiB of virtual memory.
+[ citizen-server-impl] Started resource eup-stream
+[ citizen-server-impl] Started resource eup-ui
+[    c-scripting-core] [0mCreating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[ citizen-server-impl] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[ citizen-server-impl] Started resource ox_inventory
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] [0mCreating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[38;5;161m[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_allowlist
+[ citizen-server-impl] [0mStarted resource esx_allowlist
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] [0mCreating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] [0mCreating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_mining
+[ citizen-server-impl] Started resource esx_mining
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource esx_menu_dialog
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[38;5;161m[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_PawnShop
+[ citizen-server-impl] Started resource esx_PawnShop
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_robcashregister
+[ citizen-server-impl] Started resource esx_robcashregister
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] [0mStarted resource esx_service
+[    c-scripting-core] Creating script environments for esx_thief
+[ citizen-server-impl] Started resource esx_thief
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[    c-scripting-core] [0mCreating script environments for TakeHostage
+[ citizen-server-impl] Started resource TakeHostage
+[    c-scripting-core] Creating script environments for CarryPeople
+[ citizen-server-impl] Started resource CarryPeople
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[38;5;73m[ citizen-server-impl] Couldn't find resource phone.
+[    c-scripting-core] Creating script environments for screenshot-basic
+[ citizen-server-impl] Started resource screenshot-basic
+[ citizen-server-impl] Started resource dc_loadingscreen
+[ citizen-server-impl] Started resource no_map
+[ citizen-server-impl] Started resource point_finger
+[ citizen-server-impl] Started resource handsup
+[ citizen-server-impl] Started resource dc_ads
+[    c-scripting-core] Creating script environments for grab
+[ citizen-server-impl] Started resource grab
+[    c-scripting-core] [0mCreating script environments for trew_hud_ui
+[ citizen-server-impl] Started resource trew_hud_ui
+[    c-scripting-core] [0mCreating script environments for core_crafting
+[ citizen-server-impl] Started resource core_crafting
+[ citizen-server-impl] Started resource mythic_notify
+[ citizen-server-impl] Started resource mythic_progbar
+[    c-scripting-core] Creating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[ citizen-server-impl] Started resource removeAllAi
+[ citizen-server-impl] Started resource progressBars
+[38;5;161m[    c-scripting-core] Creating script environments for t1ger_keys
+[ citizen-server-impl] Started resource t1ger_keys
+[    c-scripting-core] Creating script environments for police-alerts
+[ citizen-server-impl] Started resource police-alerts
+[38;5;73m[ citizen-server-impl] Started resource nohelmet
+[    c-scripting-core] Creating script environments for LegacyFuel
+[ citizen-server-impl] Started resource LegacyFuel
+[ citizen-server-impl] Started resource SeatShuffle
+[ citizen-server-impl] Started resource holsterweapon
+[  script:mysql-async] [0m[mysql-async] [SUCCESS] Database server connection established.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] [DEBUG] esx_addonaccount took 9.2393ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [DEBUG] ox_inventory took 1.222ms to execute a query!
+[38;5;42m[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [DEBUG] esx_society took 3.1369ms to execute a query!
+[      script:oxmysql] [93m    SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] es_extended took 6.1221ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] ox_inventory took 6.2164ms to execute a query!
+[      script:oxmysql]     DELETE FROM ox_inventory WHERE lastupdated < (NOW() - INTERVAL 6 MONTH) OR data = "[]" []
+[      script:oxmysql] [DEBUG] esx_society took 4.531ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[      script:oxmysql] [DEBUG] es_extended took 5.0747ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[  script:es_extended] [INFO] ESX Legacy initialized
+[      script:oxmysql] [DEBUG] esx_multicharacter took 13.5547ms to execute a query!
+[      script:oxmysql]     SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_MAXIMUM_LENGTH FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = "essentialmode" AND DATA_TYPE = "varchar" AND COLUMN_NAME IN (?) [["identifier","owner"]]
+[      script:oxmysql] There is an update available for oxmysql - please update to the latest release (current version: 2.3.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.4.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://tristen-rodriguez-xpdqrr.users.cfx.re/
+[       script:ox_lib] An update is available for ox_inventory (current version: 2.9.7)
+[       script:ox_lib] https://github.com/overextended/ox_inventory/releases/tag/v2.9.9
+[ citizen-server-impl] server thread hitch warning: timer interval of 367 milliseconds
+[ script:ox_inventory] [info] Inventory has loaded 192 items
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 818 milliseconds
+[      script:hardcap] Connecting: gunnsiK
+[      script:oxmysql] [DEBUG] esx_multicharacter took 3.3324ms to execute a query!
+[      script:oxmysql]     SELECT slots FROM multicharacter_slots WHERE identifier = ? ["628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [0m[DEBUG] esx_multicharacter took 10.0641ms to execute a query!
+[      script:oxmysql]     SELECT identifier, accounts, job, job_grade, firstname, lastname, dateofbirth, sex, skin, disabled FROM users WHERE identifier LIKE ? LIMIT ? ["char%:628dc61d93a30424ed1d0dfd1349167666993687",4]
+[      script:oxmysql] [DEBUG] es_extended took 4.5444ms to execute a query!
+[      script:oxmysql]     SELECT `accounts`, `job`, `job_grade`, `group`, `position`, `inventory`, `skin`, `loadout`, `firstname`, `lastname`, `dateofbirth`, `sex`, `height` FROM `users` WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[                 cmd] Access denied for command add_principal.
+[38;5;220m[  script:es_extended] [INFO] Player "Tommy Vendetti" has connected to the server. ID: 1
+[      script:oxmysql] [DEBUG] esx_status took 1.0376ms to execute a query!
+[      script:oxmysql]     SELECT status FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_lscustom took 3.829ms to execute a query!
+[      script:oxmysql]     SELECT model, price FROM vehicles []
+[38;5;42m[      script:oxmysql] [DEBUG] esx_ambulancejob took 3.3498ms to execute a query!
+[      script:oxmysql]     SELECT is_dead FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_billing took 1.6822ms to execute a query!
+[      script:oxmysql]     SELECT amount, id, label FROM billing WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[      script:oxmysql] [0m[DEBUG] esx_status took 20.2618ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"name\":\"hunger\",\"percent\":83.55,\"val\":835500},{\"name\":\"thirst\",\"percent\":55.1625,\"val\":551625}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] es_extended took 8.467ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":3713,\"black_money\":878,\"money\":92593496}","mechanic",2,"admin","{\"heading\":354.7,\"z\":29.3,\"y\":-1016.1,\"x\":402.9}","[{\"name\":\"WEAPON_PISTOL\",\"count\":1,\"metadata\":{\"durability\":94.9000000000001,\"components\":[],\"registered\":\"Tommy Vendetti\",\"ammo\":0,\"serial\":\"341280WBR357632\"},\"slot\":1},{\"name\":\"burger\",\"count\":6,\"slot\":2},{\"name\":\"water\",\"count\":7,\"slot\":3},{\"name\":\"WEAPON_CARBINERIFLE\",\"count\":1,\"metadata\":{\"durability\":99.94,\"components\":[],\"registered\":\"Tommy Vendetti\",\"ammo\":28,\"serial\":\"414422POL721819\"},\"slot\":4},{\"name\":\"phone\",\"count\":1,\"slot\":5},{\"name\":\"money\",\"count\":92593496,\"slot\":6},{\"name\":\"carokit\",\"count\":2,\"slot\":7},{\"name\":\"black_money\",\"count\":878,\"slot\":8},{\"name\":\"lockpick\",\"count\":3,\"slot\":9},{\"name\":\"copper\",\"count\":3,\"slot\":10},{\"name\":\"ammo-rifle\",\"count\":170,\"slot\":11},{\"name\":\"stone\",\"count\":5,\"slot\":12},{\"name\":\"WEAPON_STUNGUN\",\"count\":1,\"metadata\":{\"durability\":100,\"components\":[],\"registered\":\"Tommy Vendetti\"},\"slot\":13},{\"name\":\"medikit\",\"count\":3,\"slot\":14},{\"name\":\"fixkit\",\"count\":3,\"slot\":15}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+> quit "Server restarting (Tristen_Rodriguez)."
+[38;5;186m[ citizen-server-main] -> Quitting: Server restarting (Tristen_Rodriguez).
+[      script:oxmysql] [DEBUG] esx_status took 1.6719ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"name\":\"hunger\",\"percent\":83.55,\"val\":835500},{\"name\":\"thirst\",\"percent\":55.1625,\"val\":551625}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] es_extended took 2.3035ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":3713,\"black_money\":878,\"money\":92593496}","mechanic",2,"admin","{\"heading\":354.7,\"z\":29.3,\"y\":-1016.1,\"x\":402.9}","[{\"name\":\"WEAPON_PISTOL\",\"count\":1,\"metadata\":{\"durability\":94.9000000000001,\"components\":[],\"registered\":\"Tommy Vendetti\",\"ammo\":0,\"serial\":\"341280WBR357632\"},\"slot\":1},{\"name\":\"burger\",\"count\":6,\"slot\":2},{\"name\":\"water\",\"count\":7,\"slot\":3},{\"name\":\"WEAPON_CARBINERIFLE\",\"count\":1,\"metadata\":{\"durability\":99.94,\"components\":[],\"registered\":\"Tommy Vendetti\",\"ammo\":28,\"serial\":\"414422POL721819\"},\"slot\":4},{\"name\":\"phone\",\"count\":1,\"slot\":5},{\"name\":\"money\",\"count\":92593496,\"slot\":6},{\"name\":\"carokit\",\"count\":2,\"slot\":7},{\"name\":\"black_money\",\"count\":878,\"slot\":8},{\"name\":\"lockpick\",\"count\":3,\"slot\":9},{\"name\":\"copper\",\"count\":3,\"slot\":10},{\"name\":\"ammo-rifle\",\"count\":170,\"slot\":11},{\"name\":\"stone\",\"count\":5,\"slot\":12},{\"name\":\"WEAPON_STUNGUN\",\"count\":1,\"metadata\":{\"durability\":100,\"components\":[],\"registered\":\"Tommy Vendetti\"},\"slot\":13},{\"name\":\"medikit\",\"count\":3,\"slot\":14},{\"name\":\"fixkit\",\"count\":3,\"slot\":15}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [INFO] Saved player "Tommy Vendetti"
+
+================================================================
+======== FXServer Starting - 8/3/2022, 5:48:06 PM               
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[38;5;163m[    c-resources-core] Resource loading for NoCarJack failed:
+[    c-resources-core] Could not open resource metadata file - no such file.
+[ citizen-server-impl] [0mFound 94 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - SeatShuffle
+[ citizen-server-impl]     - dc_ads
+[ citizen-server-impl]     - handsup
+[ citizen-server-impl]     - nohelmet
+[ citizen-server-impl]     - progressBars
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] [0mStarted resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[              cmdsys] No such command Config.Multichar.
+[38;5;161m[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[    c-scripting-core] Creating script environments for cron
+[38;5;73m[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[    c-scripting-core] Creating script environments for hardcap
+[38;5;73m[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[38;5;73m[ citizen-server-impl] Started resource rconlog
+[    c-scripting-core] Creating script environments for mysql-async
+[ citizen-server-impl] Started resource mysql-async
+[    c-scripting-core] Creating script environments for mysql
+[ citizen-server-impl] [97mStarted resource mysql
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_002_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset eup-stream/mp_f_freemode_01^jbib_004_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_097_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_m_freemode_01^hair_005_u.ydd uses 24.0 MiB of virtual memory.
+[ citizen-server-impl] [0mStarted resource eup-stream
+[ citizen-server-impl] Started resource eup-ui
+[38;5;161m[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] [0mStarted resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[ citizen-server-impl] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[38;5;73m[ citizen-server-impl] Started resource ox_inventory
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[38;5;73m[ citizen-server-impl] Started resource esx_addonaccount
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[38;5;73m[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_datastore
+[38;5;73m[ citizen-server-impl] Started resource esx_datastore
+[38;5;161m[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] [0mCreating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_allowlist
+[ citizen-server-impl] [0mStarted resource esx_allowlist
+[38;5;161m[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] [0mStarted resource esx_basicneeds
+[38;5;161m[    c-scripting-core] Creating script environments for esx_barbershop
+[38;5;73m[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_banking
+[38;5;73m[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[38;5;73m[ citizen-server-impl] Started resource esx_clotheshop
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] [0mStarted resource esx_garage
+[    c-scripting-core] [0mCreating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[38;5;73m[ citizen-server-impl] Started resource esx_jobs
+[38;5;161m[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_lscustom
+[38;5;73m[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_mining
+[38;5;73m[ citizen-server-impl] Started resource esx_mining
+[ citizen-server-impl] [0mStarted resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource esx_menu_dialog
+[    c-scripting-core] Creating script environments for esx_society
+[38;5;73m[ citizen-server-impl] [0mStarted resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_PawnShop
+[38;5;73m[ citizen-server-impl] Started resource esx_PawnShop
+[    c-scripting-core] Creating script environments for esx_policejob
+[38;5;73m[ citizen-server-impl] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_robcashregister
+[ citizen-server-impl] [0mStarted resource esx_robcashregister
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_thief
+[ citizen-server-impl] Started resource esx_thief
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] Started resource esx_textui
+[ citizen-server-impl] Couldn't find resource NoCarJack.
+[    c-scripting-core] Creating script environments for TakeHostage
+[ citizen-server-impl] Started resource TakeHostage
+[    c-scripting-core] Creating script environments for CarryPeople
+[ citizen-server-impl] Started resource CarryPeople
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] [0mStarted resource pma-voice
+[ citizen-server-impl] Couldn't find resource phone.
+[    c-scripting-core] Creating script environments for screenshot-basic
+[ citizen-server-impl] Started resource screenshot-basic
+[ citizen-server-impl] Started resource dc_loadingscreen
+[ citizen-server-impl] Started resource no_map
+[ citizen-server-impl] Started resource point_finger
+[38;5;73m[ citizen-server-impl] Started resource handsup
+[ citizen-server-impl] Started resource dc_ads
+[    c-scripting-core] [0mCreating script environments for grab
+[ citizen-server-impl] Started resource grab
+[    c-scripting-core] Creating script environments for trew_hud_ui
+[ citizen-server-impl] [0mStarted resource trew_hud_ui
+[    c-scripting-core] Creating script environments for core_crafting
+[ citizen-server-impl] Started resource core_crafting
+[ citizen-server-impl] Started resource mythic_notify
+[ citizen-server-impl] Started resource mythic_progbar
+[38;5;161m[    c-scripting-core] Creating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[ citizen-server-impl] Started resource removeAllAi
+[38;5;73m[ citizen-server-impl] Started resource progressBars
+[    c-scripting-core] Creating script environments for t1ger_keys
+[ citizen-server-impl] Started resource t1ger_keys
+[    c-scripting-core] Creating script environments for police-alerts
+[ citizen-server-impl] Started resource police-alerts
+[ citizen-server-impl] Started resource nohelmet
+[    c-scripting-core] Creating script environments for LegacyFuel
+[ citizen-server-impl] Started resource LegacyFuel
+[ citizen-server-impl] [0mStarted resource SeatShuffle
+[ citizen-server-impl] Started resource holsterweapon
+[  script:mysql-async] [0m[mysql-async] [SUCCESS] Database server connection established.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] [DEBUG] esx_addonaccount took 12.1396ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[38;5;42m[      script:oxmysql] [DEBUG] esx_society took 1.5534ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs [][97m
+[      script:oxmysql] [DEBUG] ox_inventory took 3.5739ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [DEBUG] es_extended took 6.6ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] esx_society took 7.7031ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[      script:oxmysql] [DEBUG] ox_inventory took 8.1999ms to execute a query!
+[      script:oxmysql]     DELETE FROM ox_inventory WHERE lastupdated < (NOW() - INTERVAL 6 MONTH) OR data = "[]" []
+[      script:oxmysql] [DEBUG] esx_multicharacter took 13.5363ms to execute a query!
+[      script:oxmysql]     SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_MAXIMUM_LENGTH FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = "essentialmode" AND DATA_TYPE = "varchar" AND COLUMN_NAME IN (?) [["identifier","owner"]]
+[      script:oxmysql] [97m[DEBUG] es_extended took 6.8824ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[  script:es_extended] [INFO] ESX Legacy initialized
+[38;5;42m[      script:oxmysql] There is an update available for oxmysql - please update to the latest release (current version: 2.3.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.4.0
+[38;5;23m[       script:ox_lib] An update is available for ox_inventory (current version: 2.9.7)
+[       script:ox_lib] https://github.com/overextended/ox_inventory/releases/tag/v2.9.9
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://tristen-rodriguez-xpdqrr.users.cfx.re/
+[ citizen-server-impl] server thread hitch warning: timer interval of 386 milliseconds
+[ script:ox_inventory] [info] Inventory has loaded 192 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 901 milliseconds
+[      script:hardcap] Connecting: gunnsiK
+[38;5;42m[      script:oxmysql] [DEBUG] esx_multicharacter took 1.6338ms to execute a query!
+[      script:oxmysql]     SELECT slots FROM multicharacter_slots WHERE identifier = ? ["628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_multicharacter took 7.2507ms to execute a query!
+[      script:oxmysql]     SELECT identifier, accounts, job, job_grade, firstname, lastname, dateofbirth, sex, skin, disabled FROM users WHERE identifier LIKE ? LIMIT ? ["char%:628dc61d93a30424ed1d0dfd1349167666993687",4]
+[38;5;42m[      script:oxmysql] [DEBUG] es_extended took 3.2ms to execute a query!
+[      script:oxmysql]     SELECT `accounts`, `job`, `job_grade`, `group`, `position`, `inventory`, `skin`, `loadout`, `firstname`, `lastname`, `dateofbirth`, `sex`, `height` FROM `users` WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[                 cmd] Access denied for command add_principal.
+[  script:es_extended] [INFO] Player "Tommy Vendetti" has connected to the server. ID: 1
+[      script:oxmysql] [DEBUG] esx_status took 1.316ms to execute a query!
+[      script:oxmysql]     SELECT status FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [93m[DEBUG] esx_lscustom took 2.9962ms to execute a query!
+[      script:oxmysql]     SELECT model, price FROM vehicles []
+[      script:oxmysql] [DEBUG] esx_ambulancejob took 2.5346ms to execute a query!
+[      script:oxmysql]     SELECT is_dead FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"][97m
+[      script:oxmysql] [DEBUG] esx_status took 9.5283ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"percent\":72.97,\"name\":\"hunger\",\"val\":729700},{\"percent\":47.2275,\"name\":\"thirst\",\"val\":472275}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] es_extended took 5.1708ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":3749,\"black_money\":878,\"money\":92593496}","mechanic",2,"admin","{\"y\":-989.9,\"z\":29.1,\"heading\":184.3,\"x\":396.8}","[{\"count\":1,\"slot\":1,\"name\":\"WEAPON_PISTOL\",\"metadata\":{\"durability\":94.9000000000001,\"serial\":\"341280WBR357632\",\"registered\":\"Tommy Vendetti\",\"components\":[],\"ammo\":0}},{\"count\":6,\"slot\":2,\"name\":\"burger\"},{\"count\":7,\"slot\":3,\"name\":\"water\"},{\"count\":1,\"slot\":4,\"name\":\"WEAPON_CARBINERIFLE\",\"metadata\":{\"durability\":99.94,\"serial\":\"414422POL721819\",\"registered\":\"Tommy Vendetti\",\"components\":[],\"ammo\":28}},{\"count\":1,\"slot\":5,\"name\":\"phone\"},{\"count\":92593496,\"slot\":6,\"name\":\"money\"},{\"count\":2,\"slot\":7,\"name\":\"carokit\"},{\"count\":878,\"slot\":8,\"name\":\"black_money\"},{\"count\":3,\"slot\":9,\"name\":\"lockpick\"},{\"count\":3,\"slot\":10,\"name\":\"copper\"},{\"count\":170,\"slot\":11,\"name\":\"ammo-rifle\"},{\"count\":5,\"slot\":12,\"name\":\"stone\"},{\"count\":1,\"slot\":13,\"name\":\"WEAPON_STUNGUN\",\"metadata\":{\"components\":[],\"durability\":100,\"registered\":\"Tommy Vendetti\"}},{\"count\":3,\"slot\":14,\"name\":\"medikit\"},{\"count\":3,\"slot\":15,\"name\":\"fixkit\"}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+> quit "Server restarting (Tristen_Rodriguez)."
+[ citizen-server-main] -> Quitting: Server restarting (Tristen_Rodriguez).
+[      script:oxmysql] [0m[DEBUG] esx_status took 4.7758ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"percent\":66.45,\"name\":\"hunger\",\"val\":664500},{\"percent\":42.3375,\"name\":\"thirst\",\"val\":423375}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] es_extended took 5.4503ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"bank\":3785,\"black_money\":878,\"money\":92593496}","mechanic",2,"admin","{\"y\":-989.9,\"z\":29.1,\"heading\":184.3,\"x\":396.8}","[{\"count\":1,\"slot\":1,\"name\":\"WEAPON_PISTOL\",\"metadata\":{\"durability\":94.9000000000001,\"serial\":\"341280WBR357632\",\"registered\":\"Tommy Vendetti\",\"components\":[],\"ammo\":0}},{\"count\":6,\"slot\":2,\"name\":\"burger\"},{\"count\":7,\"slot\":3,\"name\":\"water\"},{\"count\":1,\"slot\":4,\"name\":\"WEAPON_CARBINERIFLE\",\"metadata\":{\"durability\":99.94,\"serial\":\"414422POL721819\",\"registered\":\"Tommy Vendetti\",\"components\":[],\"ammo\":28}},{\"count\":1,\"slot\":5,\"name\":\"phone\"},{\"count\":92593496,\"slot\":6,\"name\":\"money\"},{\"count\":2,\"slot\":7,\"name\":\"carokit\"},{\"count\":878,\"slot\":8,\"name\":\"black_money\"},{\"count\":3,\"slot\":9,\"name\":\"lockpick\"},{\"count\":3,\"slot\":10,\"name\":\"copper\"},{\"count\":170,\"slot\":11,\"name\":\"ammo-rifle\"},{\"count\":5,\"slot\":12,\"name\":\"stone\"},{\"count\":1,\"slot\":13,\"name\":\"WEAPON_STUNGUN\",\"metadata\":{\"components\":[],\"durability\":100,\"registered\":\"Tommy Vendetti\"}},{\"count\":3,\"slot\":14,\"name\":\"medikit\"},{\"count\":3,\"slot\":15,\"name\":\"fixkit\"}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [INFO] Saved player "Tommy Vendetti"
+
+================================================================
+======== FXServer Starting - 8/3/2022, 6:03:26 PM               
+================================================================
+[38;5;161m[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 94 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - SeatShuffle
+[ citizen-server-impl]     - dc_ads
+[ citizen-server-impl]     - handsup
+[ citizen-server-impl]     - nohelmet
+[ citizen-server-impl]     - progressBars
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[38;5;84m[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[              cmdsys] [0mNo such command Config.Multichar.
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;73m[ citizen-server-impl] Started resource chat
+[38;5;161m[    c-scripting-core] Creating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[ citizen-server-impl] Started resource rconlog
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[ citizen-server-impl] Started resource mysql-async
+[    c-scripting-core] Creating script environments for mysql
+[38;5;73m[ citizen-server-impl] Started resource mysql
+[38;5;73m[ citizen-server-impl] Started resource spawnmanager
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[38;5;73m[ citizen-server-impl] Started resource async
+[ citizen-server-impl] [0mAsset eup-stream/mp_f_freemode_01^jbib_002_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset eup-stream/mp_f_freemode_01^jbib_004_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_097_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_m_freemode_01^hair_005_u.ydd uses 24.0 MiB of virtual memory.
+[ citizen-server-impl] Started resource eup-stream
+[ citizen-server-impl] Started resource eup-ui
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[ citizen-server-impl] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[38;5;73m[ citizen-server-impl] Started resource ox_inventory
+[ citizen-server-impl] Started resource esx_animations
+[38;5;161m[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[38;5;73m[ citizen-server-impl] Started resource esx_skin
+[38;5;161m[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] Creating script environments for esx_allowlist
+[ citizen-server-impl] [0mStarted resource esx_allowlist
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] [0mStarted resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[    c-scripting-core] Creating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] [0mCreating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] [0mStarted resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] [0mStarted resource esx_jobs
+[    c-scripting-core] [0mCreating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] [0mStarted resource esx_lscustom
+[    c-scripting-core] [0mCreating script environments for esx_mining
+[ citizen-server-impl] Started resource esx_mining
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_list
+[38;5;73m[ citizen-server-impl] Started resource esx_menu_dialog
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] [0mCreating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_PawnShop
+[ citizen-server-impl] Started resource esx_PawnShop
+[38;5;161m[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] [0mStarted resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_robcashregister
+[ citizen-server-impl] Started resource esx_robcashregister
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] [0mStarted resource esx_service
+[    c-scripting-core] Creating script environments for esx_thief
+[ citizen-server-impl] Started resource esx_thief
+[    c-scripting-core] Creating script environments for esx_textui
+[38;5;73m[ citizen-server-impl] Started resource esx_textui
+[38;5;161m[    c-scripting-core] Creating script environments for NoCarJack
+[ citizen-server-impl] [0mStarted resource NoCarJack
+[    c-scripting-core] Creating script environments for TakeHostage
+[ citizen-server-impl] Started resource TakeHostage
+[    c-scripting-core] Creating script environments for CarryPeople
+[ citizen-server-impl] Started resource CarryPeople
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[ citizen-server-impl] Couldn't find resource phone.
+[    c-scripting-core] [0mCreating script environments for screenshot-basic
+[ citizen-server-impl] Started resource screenshot-basic
+[ citizen-server-impl] [0mStarted resource dc_loadingscreen
+[ citizen-server-impl] Started resource no_map
+[ citizen-server-impl] Started resource point_finger
+[38;5;73m[ citizen-server-impl] Started resource handsup
+[ citizen-server-impl] Started resource dc_ads
+[    c-scripting-core] Creating script environments for grab
+[ citizen-server-impl] Started resource grab
+[    c-scripting-core] Creating script environments for trew_hud_ui
+[ citizen-server-impl] Started resource trew_hud_ui
+[    c-scripting-core] Creating script environments for core_crafting
+[38;5;73m[ citizen-server-impl] Started resource core_crafting
+[ citizen-server-impl] [0mStarted resource mythic_notify
+[ citizen-server-impl] Started resource mythic_progbar
+[    c-scripting-core] [0mCreating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[ citizen-server-impl] Started resource removeAllAi
+[ citizen-server-impl] Started resource progressBars
+[    c-scripting-core] Creating script environments for t1ger_keys
+[ citizen-server-impl] Started resource t1ger_keys
+[    c-scripting-core] Creating script environments for police-alerts
+[ citizen-server-impl] Started resource police-alerts
+[ citizen-server-impl] Started resource nohelmet
+[    c-scripting-core] [0mCreating script environments for LegacyFuel
+[ citizen-server-impl] Started resource LegacyFuel
+[ citizen-server-impl] [0mStarted resource SeatShuffle
+[ citizen-server-impl] Started resource holsterweapon
+[  script:mysql-async] [32m[mysql-async] [SUCCESS] Database server connection established.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] [DEBUG] esx_addonaccount took 10.8441ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [93m[DEBUG] esx_society took 1.7376ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] ox_inventory took 4.7857ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [DEBUG] es_extended took 7.5028ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] esx_society took 6.5435ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[      script:oxmysql] [DEBUG] esx_multicharacter took 11.2537ms to execute a query!
+[      script:oxmysql]     SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_MAXIMUM_LENGTH FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = "essentialmode" AND DATA_TYPE = "varchar" AND COLUMN_NAME IN (?) [["identifier","owner"]]
+[      script:oxmysql] [DEBUG] ox_inventory took 6.1977ms to execute a query!
+[      script:oxmysql]     DELETE FROM ox_inventory WHERE lastupdated < (NOW() - INTERVAL 6 MONTH) OR data = "[]" []
+[      script:oxmysql] [DEBUG] es_extended took 5.6873ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[  script:es_extended] [INFO] ESX Legacy initialized
+[      script:oxmysql] There is an update available for oxmysql - please update to the latest release (current version: 2.3.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.4.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://tristen-rodriguez-xpdqrr.users.cfx.re/
+[       script:ox_lib] An update is available for ox_inventory (current version: 2.9.7)
+[       script:ox_lib] https://github.com/overextended/ox_inventory/releases/tag/v2.9.9
+[ citizen-server-impl] server thread hitch warning: timer interval of 445 milliseconds
+[38;5;135m[ script:ox_inventory] [info] Inventory has loaded 192 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 1147 milliseconds
+> quit "Server restarting (Tristen_Rodriguez)."
+[ citizen-server-main] -> Quitting: Server restarting (Tristen_Rodriguez).
+
+================================================================
+======== FXServer Starting - 8/3/2022, 6:05:04 PM               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 94 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - SeatShuffle
+[ citizen-server-impl]     - dc_ads
+[ citizen-server-impl]     - handsup
+[ citizen-server-impl]     - nohelmet
+[ citizen-server-impl]     - progressBars
+[ citizen-server-impl] 
+[38;5;73m[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[              cmdsys] No such command Config.Multichar.
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[    c-scripting-core] [97mCreating script environments for cron
+[ citizen-server-impl] Started resource cron
+[    c-scripting-core] Creating script environments for mapmanager
+[ citizen-server-impl] Started resource mapmanager
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] [97mCreating script environments for rconlog
+[ citizen-server-impl] Started resource rconlog
+[    c-scripting-core] Creating script environments for mysql-async
+[ citizen-server-impl] Started resource mysql-async
+[    c-scripting-core] Creating script environments for mysql
+[ citizen-server-impl] Started resource mysql
+[ citizen-server-impl] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[ citizen-server-impl] Started resource es_extended
+[    c-scripting-core] Creating script environments for async
+[ citizen-server-impl] Started resource async
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_002_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_004_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_f_freemode_01^jbib_097_u.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset eup-stream/mp_m_freemode_01^hair_005_u.ydd uses 24.0 MiB of virtual memory.
+[ citizen-server-impl] Started resource eup-stream
+[ citizen-server-impl] Started resource eup-ui
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[ citizen-server-impl] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[ citizen-server-impl] Started resource ox_inventory
+[ citizen-server-impl] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[ citizen-server-impl] Started resource esx_addonaccount
+[ citizen-server-impl] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[ citizen-server-impl] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_datastore
+[ citizen-server-impl] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[ citizen-server-impl] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[ citizen-server-impl] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[ citizen-server-impl] Started resource esx_ambulancejob
+[    c-scripting-core] [0mCreating script environments for esx_allowlist
+[ citizen-server-impl] Started resource esx_allowlist
+[    c-scripting-core] Creating script environments for esx_status
+[ citizen-server-impl] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[ citizen-server-impl] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_barbershop
+[ citizen-server-impl] [0mStarted resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_banking
+[ citizen-server-impl] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_billing
+[ citizen-server-impl] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[ citizen-server-impl] Started resource esx_clotheshop
+[    c-scripting-core] [0mCreating script environments for esx_identity
+[ citizen-server-impl] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_garage
+[ citizen-server-impl] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_joblisting
+[ citizen-server-impl] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[ citizen-server-impl] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_license
+[ citizen-server-impl] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_lscustom
+[ citizen-server-impl] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_mining
+[ citizen-server-impl] Started resource esx_mining
+[ citizen-server-impl] Started resource esx_menu_default
+[ citizen-server-impl] Started resource esx_menu_list
+[ citizen-server-impl] Started resource esx_menu_dialog
+[    c-scripting-core] Creating script environments for esx_society
+[ citizen-server-impl] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[ citizen-server-impl] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[ citizen-server-impl] Started resource esx_multicharacter
+[    c-scripting-core] [0mCreating script environments for esx_notify
+[ citizen-server-impl] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_PawnShop
+[ citizen-server-impl] Started resource esx_PawnShop
+[    c-scripting-core] Creating script environments for esx_policejob
+[ citizen-server-impl] [0mStarted resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_robcashregister
+[ citizen-server-impl] Started resource esx_robcashregister
+[    c-scripting-core] Creating script environments for esx_service
+[ citizen-server-impl] Started resource esx_service
+[38;5;161m[    c-scripting-core] Creating script environments for esx_thief
+[ citizen-server-impl] Started resource esx_thief
+[    c-scripting-core] Creating script environments for esx_textui
+[ citizen-server-impl] [0mStarted resource esx_textui
+[    c-scripting-core] Creating script environments for NoCarJack
+[ citizen-server-impl] Started resource NoCarJack
+[    c-scripting-core] Creating script environments for TakeHostage
+[ citizen-server-impl] Started resource TakeHostage
+[    c-scripting-core] Creating script environments for CarryPeople
+[ citizen-server-impl] Started resource CarryPeople
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[ citizen-server-impl] Couldn't find resource phone.
+[    c-scripting-core] Creating script environments for screenshot-basic
+[ citizen-server-impl] Started resource screenshot-basic
+[ citizen-server-impl] Started resource dc_loadingscreen
+[ citizen-server-impl] [0mStarted resource no_map
+[ citizen-server-impl] Started resource point_finger
+[ citizen-server-impl] Started resource handsup
+[ citizen-server-impl] Started resource dc_ads
+[    c-scripting-core] Creating script environments for grab
+[ citizen-server-impl] Started resource grab
+[    c-scripting-core] Creating script environments for trew_hud_ui
+[ citizen-server-impl] Started resource trew_hud_ui
+[    c-scripting-core] Creating script environments for core_crafting
+[ citizen-server-impl] Started resource core_crafting
+[ citizen-server-impl] Started resource mythic_notify
+[ citizen-server-impl] Started resource mythic_progbar
+[    c-scripting-core] Creating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[ citizen-server-impl] Started resource removeAllAi
+[ citizen-server-impl] Started resource progressBars
+[    c-scripting-core] Creating script environments for t1ger_keys
+[ citizen-server-impl] Started resource t1ger_keys
+[    c-scripting-core] Creating script environments for police-alerts
+[ citizen-server-impl] Started resource police-alerts
+[ citizen-server-impl] Started resource nohelmet
+[    c-scripting-core] Creating script environments for LegacyFuel
+[ citizen-server-impl] Started resource LegacyFuel
+[ citizen-server-impl] Started resource SeatShuffle
+[ citizen-server-impl] Started resource holsterweapon
+[  script:mysql-async] [mysql-async] [SUCCESS] Database server connection established.
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] [DEBUG] esx_addonaccount took 7.4621ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [DEBUG] esx_society took 1.7429ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] ox_inventory took 3.3115ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [0m[DEBUG] es_extended took 4.3098ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [DEBUG] esx_society took 3.778ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[      script:oxmysql] [97m[DEBUG] ox_inventory took 4.9905ms to execute a query!
+[      script:oxmysql]     DELETE FROM ox_inventory WHERE lastupdated < (NOW() - INTERVAL 6 MONTH) OR data = "[]" []
+[      script:oxmysql] [DEBUG] esx_multicharacter took 9.4049ms to execute a query!
+[      script:oxmysql]     SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_MAXIMUM_LENGTH FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = "essentialmode" AND DATA_TYPE = "varchar" AND COLUMN_NAME IN (?) [["identifier","owner"]]
+[38;5;42m[      script:oxmysql] [DEBUG] es_extended took 6.6025ms to execute a query!
+[      script:oxmysql]     SELECT * FROM job_grades []
+[  script:es_extended] [INFO] ESX Legacy initialized
+[      script:oxmysql] There is an update available for oxmysql - please update to the latest release (current version: 2.3.4)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.4.0
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://tristen-rodriguez-xpdqrr.users.cfx.re/
+[       script:ox_lib] An update is available for ox_inventory (current version: 2.9.7)
+[       script:ox_lib] https://github.com/overextended/ox_inventory/releases/tag/v2.9.9
+[ citizen-server-impl] server thread hitch warning: timer interval of 377 milliseconds
+[ script:ox_inventory] [info] Inventory has loaded 192 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 775 milliseconds
+[      script:hardcap] Connecting: gunnsiK
+[      script:oxmysql] [DEBUG] esx_multicharacter took 8.6381ms to execute a query!
+[      script:oxmysql]     SELECT slots FROM multicharacter_slots WHERE identifier = ? ["628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_multicharacter took 7.1481ms to execute a query!
+[      script:oxmysql]     SELECT identifier, accounts, job, job_grade, firstname, lastname, dateofbirth, sex, skin, disabled FROM users WHERE identifier LIKE ? LIMIT ? ["char%:628dc61d93a30424ed1d0dfd1349167666993687",4]
+[      script:oxmysql] [93m[DEBUG] es_extended took 3.179ms to execute a query!
+[      script:oxmysql]     SELECT `accounts`, `job`, `job_grade`, `group`, `position`, `inventory`, `skin`, `loadout`, `firstname`, `lastname`, `dateofbirth`, `sex`, `height` FROM `users` WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[                 cmd] Access denied for command add_principal.
+[  script:es_extended] [[32mINFO] Player "Tommy Vendetti" has connected to the server. ID: 1
+[38;5;42m[      script:oxmysql] [DEBUG] esx_status took 1.5383ms to execute a query!
+[      script:oxmysql]     SELECT status FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_lscustom took 7.2522ms to execute a query!
+[      script:oxmysql]     SELECT model, price FROM vehicles []
+[      script:oxmysql] [DEBUG] esx_ambulancejob took 1.4013ms to execute a query!
+[      script:oxmysql]     SELECT is_dead FROM users WHERE identifier = ? ["char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[      script:oxmysql] [DEBUG] esx_status took 8.5949ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"val\":766400,\"percent\":76.64,\"name\":\"hunger\"},{\"val\":349800,\"percent\":34.98,\"name\":\"thirst\"}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[38;5;42m[      script:oxmysql] [DEBUG] es_extended took 7.3901ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"black_money\":878,\"money\":92593496,\"bank\":3821}","mechanic",2,"admin","{\"x\":331.7,\"y\":-1061.2,\"z\":29.3,\"heading\":262.4}","[{\"metadata\":{\"durability\":94.9000000000001,\"registered\":\"Tommy Vendetti\",\"serial\":\"341280WBR357632\",\"components\":[],\"ammo\":0},\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":1},{\"count\":5,\"name\":\"burger\",\"slot\":2},{\"metadata\":{\"durability\":100,\"registered\":\"Tommy Vendetti\",\"components\":[]},\"count\":1,\"name\":\"WEAPON_STUNGUN\",\"slot\":3},{\"metadata\":{\"durability\":99.94,\"registered\":\"Tommy Vendetti\",\"serial\":\"414422POL721819\",\"components\":[],\"ammo\":28},\"count\":1,\"name\":\"WEAPON_CARBINERIFLE\",\"slot\":4},{\"count\":8,\"name\":\"lockpick\",\"slot\":5},{\"count\":92593496,\"name\":\"money\",\"slot\":6},{\"count\":2,\"name\":\"carokit\",\"slot\":7},{\"count\":878,\"name\":\"black_money\",\"slot\":8},{\"count\":1,\"name\":\"phone\",\"slot\":9},{\"count\":3,\"name\":\"copper\",\"slot\":10},{\"count\":170,\"name\":\"ammo-rifle\",\"slot\":11},{\"count\":5,\"name\":\"stone\",\"slot\":12},{\"count\":7,\"name\":\"water\",\"slot\":13},{\"count\":3,\"name\":\"medikit\",\"slot\":14},{\"count\":3,\"name\":\"fixkit\",\"slot\":15}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[38;5;42m[      script:oxmysql] [DEBUG] esx_status took 8.4246ms to execute a query!
+[      script:oxmysql]     UPDATE users SET status = ? WHERE identifier = ? ["[{\"val\":683700,\"percent\":68.37,\"name\":\"hunger\"},{\"val\":287775,\"percent\":28.7775,\"name\":\"thirst\"}]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[38;5;42m[      script:oxmysql] [DEBUG] es_extended took 12.7383ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ? ["{\"black_money\":878,\"money\":92593496,\"bank\":3857}","mechanic",2,"admin","{\"x\":407.0,\"y\":-1074.0,\"z\":29.4,\"heading\":335.1}","[{\"metadata\":{\"durability\":94.9000000000001,\"registered\":\"Tommy Vendetti\",\"serial\":\"341280WBR357632\",\"components\":[],\"ammo\":0},\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":1},{\"count\":5,\"name\":\"burger\",\"slot\":2},{\"metadata\":{\"durability\":100,\"registered\":\"Tommy Vendetti\",\"components\":[]},\"count\":1,\"name\":\"WEAPON_STUNGUN\",\"slot\":3},{\"metadata\":{\"durability\":99.94,\"registered\":\"Tommy Vendetti\",\"serial\":\"414422POL721819\",\"components\":[],\"ammo\":28},\"count\":1,\"name\":\"WEAPON_CARBINERIFLE\",\"slot\":4},{\"count\":8,\"name\":\"lockpick\",\"slot\":5},{\"count\":92593496,\"name\":\"money\",\"slot\":6},{\"count\":2,\"name\":\"carokit\",\"slot\":7},{\"count\":878,\"name\":\"black_money\",\"slot\":8},{\"count\":1,\"name\":\"phone\",\"slot\":9},{\"count\":3,\"name\":\"copper\",\"slot\":10},{\"count\":170,\"name\":\"ammo-rifle\",\"slot\":11},{\"count\":5,\"name\":\"stone\",\"slot\":12},{\"count\":7,\"name\":\"water\",\"slot\":13},{\"count\":3,\"name\":\"medikit\",\"slot\":14},{\"count\":3,\"name\":\"fixkit\",\"slot\":15}]","[]","char1:628dc61d93a30424ed1d0dfd1349167666993687"]
+[  script:es_extended] [0m[INFO] Saved player "Tommy Vendetti"
+[script:esx_vehiclesh] [esx_vehicleshop] [INFO] Paying rent cron job started
+[  script:mysql-async] [MariaDB:10.4.24-MariaDB] [ERROR] [esx_vehicleshop] An error happens for query "SELECT owner, rent_price, plate FROM rented_vehicles : []": ER_NO_SUCH_TABLE: Table 'essentialmode.rented_vehicles' doesn't exist
+[script:esx_vehiclesh] SCRIPT ERROR: @esx_vehicleshop/server/main.lua:434: bad argument #1 to 'for iterator' (table expected, got nil)
+[script:esx_vehiclesh] > ref (@esx_vehicleshop/server/main.lua:434)
+[script:esx_vehiclesh] > <unknown> (@mysql-async/mysql-async.js:15543)
+[  script:mysql-async] 
