@@ -126,4 +126,4 @@ Config.SearchItems = {
 	[6] = {item = "coke1g", name = "Coke", min = 1, max = 3, chance = 94}
 }
 
-Config.ExtraCash = {chance = 50, min = 100, max = 750, type = 'cash' --[[set to 'dirty' if u want dirty cash]]}
+Config.ExtraCash = {chance = 50, min = 50, max = 200, type = 'cash' --[[set to 'dirty' if u want dirty cash]]}

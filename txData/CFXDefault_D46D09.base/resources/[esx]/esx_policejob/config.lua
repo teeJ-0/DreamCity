@@ -41,7 +41,7 @@ Config.PoliceStations = {
 		},
 
 		Armories = {
-			vector3(451.7, -980.1, 30.6)
+			--vector3(451.7, -980.1, 30.6)
 		},
 
 		Vehicles = {
