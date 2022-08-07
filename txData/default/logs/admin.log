@@ -1,15 +1,22 @@
 
 ================================================================
-======== txAdmin Starting - 8/3/2022, 5:37:57 PM                
+======== txAdmin Starting - 8/7/2022, 12:00:54 AM               
 ================================================================
 
 ================================================================
-======== Log Rotated - 8/3/2022, 5:37:57 PM                     
+======== Log Rotated - 8/7/2022, 12:00:54 AM                    
 ================================================================
-[17:38:38] [Tristen_Rodriguez] logged in via in-game ui
-[17:48:00] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
-[17:48:04] [Tristen_Rodriguez] RESTART SERVER
-[17:48:45] [Tristen_Rodriguez] logged in via in-game ui
-[18:03:24] [Tristen_Rodriguez] RESTART SERVER
-[18:05:01] [Tristen_Rodriguez] RESTART SERVER
-[18:06:14] [Tristen_Rodriguez] logged in via in-game ui
+[00:01:43] [Tristen_Rodriguez] logged in via in-game ui
+[00:05:14] [Tristen_Rodriguez] logged in from 127.0.0.1 via password
+[00:06:06] [Tristen_Rodriguez] ensure "radialmenu"
+[00:12:26] [Tristen_Rodriguez] logged in via in-game ui
+[00:24:54] [Tristen_Rodriguez] RESTART SERVER
+[00:25:33] [Tristen_Rodriguez] logged in via in-game ui
+[00:28:01] [Tristen_Rodriguez] ensure "t1ger_keys"
+[00:28:59] [Tristen_Rodriguez] RESTART SERVER
+[00:29:37] [Tristen_Rodriguez] logged in via in-game ui
+[00:33:02] [Tristen_Rodriguez] ensure "t1ger_keys"
+[00:37:09] [Tristen_Rodriguez] RESTART SERVER
+[00:37:48] [Tristen_Rodriguez] logged in via in-game ui
+[00:51:52] [Tristen_Rodriguez] RESTART SERVER
+[00:52:31] [Tristen_Rodriguez] logged in via in-game ui

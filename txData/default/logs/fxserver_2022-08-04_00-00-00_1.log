@@ -1,0 +1,16 @@
+
+================================================================
+======== Log Rotated - 8/4/2022, 12:00:00 AM                    
+================================================================
+[      script:oxmysql] [DEBUG] esx_society took 2.0445ms to execute a query!
+[      script:oxmysql]     SELECT * FROM society_moneywash []
+[      script:oxmysql] [DEBUG] esx_society took 0.4481ms to execute a query!
+[      script:oxmysql]     DELETE FROM society_moneywash []
+[ citizen-server-impl] sync thread hitch warning: timer interval of 293 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 297 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 8890198 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 8889888 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 8889895 milliseconds
+[script:police-alerts] Returned error code:0
+[ citizen-server-impl] server thread hitch warning: timer interval of 213 milliseconds
+[ citizen-server-main] -> Quitting: SIGHUP received

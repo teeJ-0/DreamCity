@@ -33,7 +33,7 @@ Config.AlertBlip = {{
 
 -- Locksmith Shop:
 Config.Locksmith = {{
-	Pos = {170.18,-1799.42,29.32},
+	Pos = {-29.498899, -1103.762695, 26.415405},
 	Key = 38,
 	Marker = {
 		Enable = true,
@@ -44,7 +44,7 @@ Config.Locksmith = {{
 	},
 	Blip = {
 		Enable 	= true,
-		Pos 	= {170.18,-1799.42,29.32},
+		Pos 	= {-29.498899, -1103.762695, 26.415405},
 		Sprite 	= 134,
 		Color 	= 1,
 		Name 	= "Locksmith",
