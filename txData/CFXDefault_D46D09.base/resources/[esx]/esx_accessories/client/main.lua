@@ -234,5 +234,5 @@ if Config.EnableControls then
 		end
 	end)
 
-	RegisterKeyMapping("accessory", "Open Accessory Menu", "keyboard", "k")
+	-- RegisterKeyMapping("accessory", "Open Accessory Menu", "keyboard", "224")
 end
