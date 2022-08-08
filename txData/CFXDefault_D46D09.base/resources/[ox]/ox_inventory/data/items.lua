@@ -32,7 +32,7 @@ return {
 
 	['bandage'] = {
 		label = 'Bandage',
-		weight = 5,
+		weight = 115,
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
@@ -47,7 +47,7 @@ return {
 
 	['burger'] = {
 		label = 'Burger',
-		weight = 5,
+		weight = 220,
 		client = {
 			status = { hunger = 200000 },
 			anim = 'eating',
@@ -59,7 +59,7 @@ return {
 
 	['cola'] = {
 		label = 'eCola',
-		weight = 5,
+		weight = 350,
 		client = {
 			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
@@ -109,7 +109,7 @@ return {
 
 	['lockpick'] = {
 		label = 'Lockpick',
-		weight = 80,
+		weight = 160,
 		consume = 0,
 		client = {
 			anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', clip = 'machinic_loop_mechandplayer' },
@@ -157,7 +157,7 @@ return {
 
 	['water'] = {
 		label = 'Water',
-		weight = 10,
+		weight = 500,
 		client = {
 			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
@@ -184,245 +184,5 @@ return {
 			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
             usetime = 3500
 		}
-	},
-
-	['alive_chicken'] = {
-		label = 'living chicken',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['blowpipe'] = {
-		label = 'blowtorch',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['bread'] = {
-		label = 'bread',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['cannabis'] = {
-		label = 'cannabis',
-		weight = 3,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['carokit'] = {
-		label = 'body kit',
-		weight = 3,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['carotool'] = {
-		label = 'tools',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['clothe'] = {
-		label = 'cloth',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['copper'] = {
-		label = 'copper',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['cutted_wood'] = {
-		label = 'cut wood',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['diamond'] = {
-		label = 'diamond',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['essence'] = {
-		label = 'gas',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['fabric'] = {
-		label = 'fabric',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['fish'] = {
-		label = 'fish',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['fixkit'] = {
-		label = 'repair kit',
-		weight = 3,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['fixtool'] = {
-		label = 'repair tools',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['gazbottle'] = {
-		label = 'gas bottle',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['gold'] = {
-		label = 'gold',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['iron'] = {
-		label = 'iron',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['keys'] = {
-		label = 'keys',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['marijuana'] = {
-		label = 'marijuana',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['medikit'] = {
-		label = 'medikit',
-		weight = 2,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['packaged_chicken'] = {
-		label = 'chicken fillet',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['packaged_plank'] = {
-		label = 'packaged wood',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['petrol'] = {
-		label = 'oil',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['petrol_raffin'] = {
-		label = 'processed oil',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['slaughtered_chicken'] = {
-		label = 'slaughtered chicken',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['stone'] = {
-		label = 'stone',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['washed_stone'] = {
-		label = 'washed stone',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['wood'] = {
-		label = 'wood',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['wool'] = {
-		label = 'wool',
-		weight = 1,
-		stack = true,
-		close = true,
-		description = nil
 	},
 }

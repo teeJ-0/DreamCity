@@ -254,7 +254,7 @@ local function useSlot(slot)
 		if data.effect then
 			data:effect({name = item.name, slot = item.slot, metadata = item.metadata})
 		elseif data.weapon then
-			if client.weaponWheel then return end
+			if BlockWeaponWheel then return end
 			useItem(data, function(result)
 				if result then
 					if currentWeapon?.slot == result.slot then
@@ -319,7 +319,7 @@ local function useSlot(slot)
 		elseif currentWeapon then
 			local playerPed = cache.ped
 			if data.ammo then
-				if client.weaponWheel or currentWeapon.metadata.durability <= 0 then return end
+				if BlockWeaponWheel or currentWeapon.metadata.durability <= 0 then return end
 				local maxAmmo = GetMaxAmmoInClip(playerPed, currentWeapon.hash, true)
 				local currentAmmo = GetAmmoInPedWeapon(playerPed, currentWeapon.hash)
 
@@ -480,6 +480,9 @@ local function registerCommands()
 				if StashTarget then
 					client.openInventory('stash', StashTarget)
 				elseif cache.vehicle then
+					-- Player is still entering vehicle, so bailout
+					if not IsPedInAnyVehicle(cache.ped, false) then return end
+
 					local vehicle = cache.vehicle
 
 					if NetworkGetEntityIsNetworked(vehicle) then
@@ -613,7 +616,7 @@ local function registerCommands()
 	TriggerEvent('chat:removeSuggestion', '/reload')
 
 	RegisterCommand('hotbar', function()
-		if not client.weaponWheel and not IsPauseMenuActive() then
+		if not BlockWeaponWheel and not IsPauseMenuActive() then
 			SendNUIMessage({ action = 'toggleHotbar' })
 		end
 	end)
@@ -1006,9 +1009,15 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 			end
 		end
 
-		if currentWeapon and GetSelectedPedWeapon(playerPed) ~= currentWeapon.hash then
+		local weaponHash = GetSelectedPedWeapon(playerPed)
+
+		if currentWeapon and weaponHash ~= currentWeapon.hash then
 			TriggerServerEvent('ox_inventory:updateWeapon')
-			currentWeapon = Utils.Disarm(currentWeapon)
+			currentWeapon = Utils.Disarm(currentWeapon, true)
+
+			if weaponHash == `WEAPON_HANDCUFFS` or weaponHash == `WEAPON_GARBAGEBAG` or weaponHash == `WEAPON_BRIEFCASE` or weaponHash == `WEAPON_BRIEFCASE_02` then
+				SetCurrentPedWeapon(cache.ped, weaponHash, true)
+			end
 		end
 
 		if client.parachute and GetPedParachuteState(playerPed) ~= -1 then
@@ -1017,9 +1026,18 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		end
 	end, 200)
 
+	local playerId = cache.playerId
 	local EnableKeys = client.enablekeys
-	client.tick = SetInterval(function(disableControls)
-		local playerId = cache.playerId
+	local DisablePlayerVehicleRewards = DisablePlayerVehicleRewards
+	local DisableAllControlActions = DisableAllControlActions
+	local HideHudAndRadarThisFrame = HideHudAndRadarThisFrame
+	local EnableControlAction = EnableControlAction
+	local disableControls = lib.disableControls
+	local DisablePlayerFiring = DisablePlayerFiring
+	local HudWeaponWheelIgnoreSelection = HudWeaponWheelIgnoreSelection
+	local DisableControlAction = DisableControlAction
+
+	client.tick = SetInterval(function()
 		DisablePlayerVehicleRewards(playerId)
 
 		if invOpen then
@@ -1036,7 +1054,14 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 			end
 		else
 			disableControls()
-			if invBusy then DisablePlayerFiring(playerId, true) end
+
+			if invBusy then
+				DisablePlayerFiring(playerId, true)
+			end
+
+			if BlockWeaponWheel then
+				HudWeaponWheelIgnoreSelection()
+			end
 
 			if currentWeapon then
 				DisableControlAction(0, 80, true)
@@ -1107,7 +1132,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				end
 			end
 		end
-	end, 0, lib.disableControls)
+	end)
 
 	plyState:set('invBusy', false, false)
 	plyState:set('invOpen', false, false)
@@ -1177,29 +1202,56 @@ end)
 
 RegisterNUICallback('giveItem', function(data, cb)
 	cb(1)
-	if cache.vehicle then
+	local target
+
+	if client.giveplayerlist then
+		local nearbyPlayers = lib.getNearbyPlayers(GetEntityCoords(cache.ped), 2.0)
+
+		if #nearbyPlayers == 0 then return end
+
+		for i = 1, #nearbyPlayers do
+			local option = nearbyPlayers[i]
+			local playerName = GetPlayerName(option.id)
+			option.id = GetPlayerServerId(option.id)
+			option.label = ('[%s] %s'):format(option.id, playerName)
+			nearbyPlayers[i] = option
+		end
+
+		local p = promise.new()
+
+		lib.registerMenu({
+			id = 'ox_inventory:givePlayerList',
+			title = 'Give item',
+			options = nearbyPlayers,
+			onClose = function() p:resolve() end,
+		}, function(selected) p:resolve(selected and nearbyPlayers[selected].id) end)
+		lib.showMenu('ox_inventory:givePlayerList')
+
+		target = Citizen.Await(p)
+	elseif cache.vehicle then
 		local seats = GetVehicleMaxNumberOfPassengers(cache.vehicle) - 1
 
 		if seats >= 0 then
 			local passenger = GetPedInVehicleSeat(cache.seat - 2 * (cache.seat % 2) + 1)
 
 			if passenger ~= 0 then
-				passenger = GetPlayerServerId(NetworkGetPlayerIndexFromPed(passenger))
-				TriggerServerEvent('ox_inventory:giveItem', data.slot, passenger, data.count)
-				if data.slot == currentWeapon?.slot then currentWeapon = Utils.Disarm(currentWeapon) end
+				target = GetPlayerServerId(NetworkGetPlayerIndexFromPed(passenger))
 			end
 		end
 	else
-		local target = Utils.Raycast(12)
+		local entity = Utils.Raycast(12)
 
-		if target and IsPedAPlayer(target) and #(GetEntityCoords(cache.ped, true) - GetEntityCoords(target, true)) < 2.3 then
-			target = GetPlayerServerId(NetworkGetPlayerIndexFromPed(target))
+		if entity and IsPedAPlayer(entity) and #(GetEntityCoords(cache.ped, true) - GetEntityCoords(entity, true)) < 2.0 then
+			target = GetPlayerServerId(NetworkGetPlayerIndexFromPed(entity))
 			Utils.PlayAnim(2000, 'mp_common', 'givetake1_a', 1.0, 1.0, -1, 50, 0.0, 0, 0, 0)
-			TriggerServerEvent('ox_inventory:giveItem', data.slot, target, data.count)
+		end
+	end
 
-			if data.slot == currentWeapon?.slot then
-				currentWeapon = Utils.Disarm(currentWeapon)
-			end
+	if target then
+		TriggerServerEvent('ox_inventory:giveItem', data.slot, target, data.count)
+
+		if data.slot == currentWeapon?.slot then
+			currentWeapon = Utils.Disarm(currentWeapon)
 		end
 	end
 end)
@@ -1247,8 +1299,8 @@ RegisterNUICallback('buyItem', function(data, cb)
 	if data then
 		PlayerData.inventory[data[1]] = data[2]
 		client.setPlayerData('inventory', PlayerData.inventory)
-		client.setPlayerData('weight', data[3])
-		SendNUIMessage({ action = 'refreshSlots', data = {item = data[2]} })
+		client.setPlayerData('weight', data[4])
+		SendNUIMessage({ action = 'refreshSlots', data = data[3] and {{item = data[2]}, {item = data[3], inventory = 'shop'}} or {item = data[2]}})
 	end
 
 	if message then

@@ -64,17 +64,29 @@ function db.loadTrunk(id)
 	return MySQL.prepare.await(Query.SELECT_TRUNK, { id })
 end
 
-function db.saveInventories(trunks, gloveboxes, stashes)
-	if #trunks > 0 then
+function db.saveInventories(players, trunks, gloveboxes, stashes)
+	local numPlayer, numTrunk, numGlove, numStash = #players, #trunks, #gloveboxes, #stashes
+
+	if numPlayer > 0 then
+		MySQL.prepare(Query.UPDATE_PLAYER, players)
+	end
+
+	if numTrunk > 0 then
 		MySQL.prepare(Query.UPDATE_TRUNK, trunks)
 	end
 
-	if #gloveboxes > 0 then
+	if numGlove > 0 then
 		MySQL.prepare(Query.UPDATE_GLOVEBOX, gloveboxes)
 	end
 
-	if #stashes > 0 then
+	if numStash > 0 then
 		MySQL.prepare(Query.UPDATE_STASH, stashes)
+	end
+
+	local total = numPlayer + numTrunk + numGlove + numStash
+
+	if total > 0 then
+		shared.info(('Saving %s inventories to the database'):format(total))
 	end
 end
 

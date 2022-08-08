@@ -43,7 +43,7 @@ Config.Locksmith = {{
 		Color = {r = 240, g = 52, b = 52, a = 100},
 	},
 	Blip = {
-		Enable 	= true,
+		Enable 	= false,
 		Pos 	= {-29.498899, -1103.762695, 26.415405},
 		Sprite 	= 134,
 		Color 	= 1,

@@ -26,7 +26,7 @@ Lang = {
   ['item_found']      			= 'You found ~b~%sx~s~ ~y~%s~s~.',
   
   -- LOCKSMITH MENU:
-  ['open_locksmith']            = '~r~[E]~s~ FOR ~y~LOCKSMITH~s~',
+  ['open_locksmith']            = '~r~[E]~s~ TO ~y~BUY KEYS~s~',
   ['shop_main_title']           = 'Select a Car',
   ['reg_key_title']           	= 'Register Key Price: $%s',
   ['reg_key_accept']           	= 'Accept',
