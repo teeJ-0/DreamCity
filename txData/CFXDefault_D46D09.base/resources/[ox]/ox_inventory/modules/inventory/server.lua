@@ -153,6 +153,7 @@ end
 local Items
 
 CreateThread(function()
+	TriggerEvent('ox_inventory:loadInventory', Inventory)
 	Items = server.items
 
 	-- Require "set inventory:weaponmismatch 1" to enable experimental weapon checks.
@@ -970,6 +971,7 @@ local function dropItem(source, data)
 	local coords = GetEntityCoords(GetPlayerPed(source))
 	inventory.coords = vec3(coords.x, coords.y, coords.z-0.2)
 	Inventory.Drops[dropId] = {coords = inventory.coords, instance = data.instance}
+	playerInventory.changed = true
 
 	TriggerClientEvent('ox_inventory:createDrop', -1, dropId, Inventory.Drops[dropId], playerInventory.open and source, slot)
 
@@ -1360,8 +1362,11 @@ SetInterval(function()
 		if not inv.open then
 			if not inv.datastore and inv.changed then
 				local i, data = prepareSave(inv)
-				size[i] += 1
-				parameters[i][size[i]] = data
+
+				if i then
+					size[i] += 1
+					parameters[i][size[i]] = data
+				end
 			end
 
 			if not inv.player and (inv.datastore or inv.owner) and time - inv.time >= 3000 then
@@ -1383,8 +1388,11 @@ local function saveInventories(lock)
 	for _, inv in pairs(Inventories) do
 		if not inv.datastore and inv.changed then
 			local i, data = prepareSave(inv)
-			size[i] += 1
-			parameters[i][size[i]] = data
+
+			if i then
+				size[i] += 1
+				parameters[i][size[i]] = data
+			end
 		end
 	end
 
@@ -1624,8 +1632,6 @@ lib.addCommand('group.admin', 'viewinv', function(source, args)
 end, {'target'})
 
 Inventory.accounts = server.accounts
-
-TriggerEvent('ox_inventory:loadInventory', Inventory)
 
 --- Takes traditional item data and updates it to support ox_inventory, i.e.\
 --- ```

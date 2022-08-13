@@ -90,7 +90,7 @@ Locales['en'] = {
   ['m_melt_button'] = 'press [E] to melt the rocks.',
 
   -- Reporter
-  ['reporter_name'] = 'DreamCity Times',
+  ['reporter_name'] = 'san Andreas Times',
   ['reporter_garage'] = 'press [E] to go down to the garage.',
 
   -- Slaughterer

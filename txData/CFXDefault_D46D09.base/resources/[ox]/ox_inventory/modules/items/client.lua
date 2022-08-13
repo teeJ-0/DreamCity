@@ -84,6 +84,53 @@ Item('phone', function(data, slot)
 	end
 end)
 
+Item('clothing', function(data, slot)
+	local metadata = slot.metadata
+
+	if not metadata.drawable then return print('Clothing is missing drawable in metadata') end
+	if not metadata.texture then return print('Clothing is missing texture in metadata') end
+
+	if metadata.prop then
+		if not SetPedPreloadPropData(cache.ped, metadata.prop, metadata.drawable, metadata.texture) then
+			return print('Clothing has invalid prop for this ped')
+		end
+	elseif metadata.component then
+		if not IsPedComponentVariationValid(cache.ped, metadata.component, metadata.drawable, metadata.texture) then
+			return print('Clothing has invalid component for this ped')
+		end
+	else
+		return print('Clothing is missing prop/component id in metadata')
+	end
+
+	ox_inventory:useItem(data, function(data)
+		if data then
+			metadata = data.metadata
+
+			if metadata.prop then
+				local prop = GetPedPropIndex(cache.ped, metadata.prop)
+				local texture = GetPedPropTextureIndex(cache.ped, metadata.prop)
+
+				if metadata.drawable == prop and metadata.texture == texture then
+					return ClearPedProp(cache.ped, metadata.prop)
+				end
+
+				-- { prop = 0, drawable = 2, texture = 1 } = grey beanie
+				SetPedPropIndex(cache.ped, metadata.prop, metadata.drawable, metadata.texture, false);
+			elseif metadata.component then
+				local drawable = GetPedDrawableVariation(cache.ped, metadata.component)
+				local texture = GetPedTextureVariation(cache.ped, metadata.component)
+
+				if metadata.drawable == drawable and metadata.texture == texture then
+					return -- item matches (setup defaults so we can strip?)
+				end
+
+				-- { component = 4, drawable = 4, texture = 1 } = jeans w/ belt
+				SetPedComponentVariation(cache.ped, metadata.component, metadata.drawable, metadata.texture, 0);
+			end
+		end
+	end)
+end)
+
 -----------------------------------------------------------------------------------------------
 
 exports('Items', GetItem)

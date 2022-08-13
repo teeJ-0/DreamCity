@@ -1,12 +1,10 @@
-fx_version 'adamant'
-
+fx_version 'cerulean'
 game 'gta5'
 
+lua54 'yes'
+
 description 'ESX Society'
-
-version '1.7.5'
-
-shared_script '@es_extended/imports.lua'
+version '1.0.4'
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',

@@ -1,6 +1,6 @@
 Config = {}
 
 Config.Locale = 'en'
-Config.EnableESXIdentity = true
+
+Config.EnableESXIdentity = false
 Config.MaxSalary = 3500
-Config.EnablePlayerManagement     = true
